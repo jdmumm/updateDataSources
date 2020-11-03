@@ -7,7 +7,7 @@ brk %>% drop_na (code) -> brk.noNa
 
 brk.noNa %>% left_join (inv) -> full
 
-full %>% select ( UniqID,dataType,newType = Type,brokenPath,newPath = Path) -> out
+full %>% transmute ( UniqID,dataType,newType = replace_na(Type, "_review"),brokenPath,newPath = Path) -> out
 
-out %>% write.csv('out.csv')  
+out %>% write.csv('out.csv', row.names = FALSE)  
 
