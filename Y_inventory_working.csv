@@ -1,0 +1,220 @@
+code,Nick,Path,db,Path_short,Type 
+1,,Y:\sde_wcgis_master (dfgjnusql-gi71p).sde\sde_wcgis_master.DBO.areanamesCurrent,wcgis,areanamesCurrent,sde
+2,,Y:\sde_wcgis_master (dfgjnusql-gi71p).sde\sde_wcgis_master.DBO.gmu_links,wcgis,gmu_links,sde
+3,,Y:\sde_wcgis_master (dfgjnusql-gi71p).sde\sde_wcgis_master.dbo.SDE_compress_log,wcgis,SDE_compress_log,sde
+4,UCU,Y:\sde_wcgis_master (dfgjnusql-gi71p).sde\sde_wcgis_master.DBO.DWCMasters\sde_wcgis_master.DBO.UCU_poly,wcgis,UCU_poly,sde
+5,SA,Y:\sde_wcgis_master (dfgjnusql-gi71p).sde\sde_wcgis_master.DBO.DWCMasters\sde_wcgis_master.DBO.SpecialAreas,wcgis,SpecialAreas,sde
+6,Hunts,Y:\sde_wcgis_master (dfgjnusql-gi71p).sde\sde_wcgis_master.DBO.DWCMasters\sde_wcgis_master.DBO.DWCHunts,wcgis,DWCHunts,sde
+7,,Y:\sde_wcgis_master (dfgjnusql-gi71p).sde\sde_wcgis_master.DBO.DWCMasters\sde_wcgis_master.DBO.DWCMasters_topology,wcgis,DWCMasters_topology,sde
+8,AK_SHADE,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.AK_SHADE,common,AK_SHADE,sde
+9,DRG_ITM,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.DRG_ITM,common,DRG_ITM,sde
+10,DRG_QM,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.DRG_QM,common,DRG_QM,sde
+11,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NED_AGREEDEM08,common,NED_AGREEDEM08,sde
+12,NED_CLIP,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NED_CLIP,common,NED_CLIP,sde
+13,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NED_FILLSINKS08,common,NED_FILLSINKS08,sde
+14,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NED_FLOWACC08,common,NED_FLOWACC08,sde
+15,NED_FLOWDIR,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NED_FLOWDIR08,common,NED_FLOWDIR08,sde
+16,NED_HILLCLIP,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NED_HILLCLIP,common,NED_HILLCLIP,sde
+17,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NED_HILLRAW,common,NED_HILLRAW,sde
+18,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NED_RAW,common,NED_RAW,sde
+19,NGS_ITM_HS,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NGS_ITM_HILLSHADE_DD,common,NGS_ITM_HILLSHADE_DD,sde
+20,NGS_ITM_TOPO,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NGS_ITM_TOPO_DD,common,NGS_ITM_TOPO_DD,sde
+21,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NHDWaterbodyToMeta,common,NHDWaterbodyToMeta,sde
+22,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NHDPointEventFCToMeta,common,NHDPointEventFCToMeta,sde
+23,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NHDPointToMeta,common,NHDPointToMeta,sde
+24,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NHDMetadataHasSourceCitation,common,NHDMetadataHasSourceCitation,sde
+25,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NHDMetaToFeature,common,NHDMetaToFeature,sde
+26,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NHDLineToMeta,common,NHDLineToMeta,sde
+27,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NHDLineEventFCToMeta,common,NHDLineEventFCToMeta,sde
+28,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NHDFlowlineToMeta,common,NHDFlowlineToMeta,sde
+29,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NHDAreaToMeta,common,NHDAreaToMeta,sde
+30,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NHDAreaEventFCToMeta,common,NHDAreaEventFCToMeta,sde
+31,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NHDVerticalRelationship,common,NHDVerticalRelationship,sde
+32,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NHDSourceCitation,common,NHDSourceCitation,sde
+33,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NHDStatus,common,NHDStatus,sde
+34,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NHDReachCode_ComID,common,NHDReachCode_ComID,sde
+35,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NHDReachCrossReference,common,NHDReachCrossReference,sde
+36,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NHDProcessingParameters,common,NHDProcessingParameters,sde
+37,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NHDMetadata,common,NHDMetadata,sde
+38,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NHDFlowlineVAA,common,NHDFlowlineVAA,sde
+39,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NHDFlow,common,NHDFlow,sde
+40,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NHDFeatureToMetadata,common,NHDFeatureToMetadata,sde
+41,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NHDFCode,common,NHDFCode,sde
+42,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.HYDRO_NET_BUILDERR,common,HYDRO_NET_BUILDERR,sde
+43,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.ExternalIDCrosswalk,common,ExternalIDCrosswalk,sde
+44,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NGS_QM_ELEV_DD,common,NGS_QM_ELEV_DD,sde
+45,NGS_QM_TOPO,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NGS_QM_TOPO_DD,common,NGS_QM_TOPO_DD,sde
+46,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.Coastlines_DD\sde_common.DBO.Russia,common,Russia,sde
+47,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.Coastlines_DD\sde_common.DBO.AKLimitsDD,common,AKLimitsDD,sde
+48,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.Coastlines_DD\sde_common.DBO.AK_shore_63k,common,AK_shore_63k,sde
+49,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.Coastlines_DD\sde_common.DBO.Canada,common,Canada,sde
+50,AK_itm,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.Coastlines_Albers\sde_common.DBO.AK_coast_ITM,common,AK_coast_ITM,sde
+51,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.Coastlines_Albers\sde_common.DBO.Canada_Russia,common,Canada_Russia,sde
+52,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.Coastlines_Albers\sde_common.DBO.AKLimits,common,AKLimits,sde
+53,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.Coastlines_Albers\sde_common.DBO.canada_prov,common,canada_prov,sde
+54,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.Boundaries\sde_common.DBO.Admin_Large_Parcel,common,Admin_Large_Parcel,sde
+55,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.Boundaries\sde_common.DBO.StateLDA09,common,StateLDA09,sde
+56,AKGNIS,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.BaseFeaturesDD\sde_common.DBO.placenames_AKGNIS,common,placenames_AKGNIS,sde
+57,Orth,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.BaseFeatures\sde_common.DBO.placenames_orth,common,placenames_orth,sde
+58,mileposts,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.BaseFeatures\sde_common.DBO.dot_centerline_milepost,common,dot_centerline_milepost,sde
+59,rescomm,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.BaseFeatures\sde_common.DBO.rescomm,common,rescomm,sde
+60,centerline,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.BaseFeatures\sde_common.DBO.dot_centerline_route,common,dot_centerline_route,sde
+61,gps_akhwys,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.BaseFeatures\sde_common.DBO.simplgps_akhwys,common,simplgps_akhwys,sde
+62,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.TownshipRangeQuads\sde_common.DBO.section_label,common,section_label,sde
+63,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.TownshipRangeQuads\sde_common.DBO.ranges,common,ranges,sde
+64,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.TownshipRangeQuads\sde_common.DBO.townships,common,townships,sde
+65,sections,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.TownshipRangeQuads\sde_common.DBO.section_polygon,common,section_polygon,sde
+66,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.TownshipRangeQuads\sde_common.DBO.section_arc,common,section_arc,sde
+67,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.TownshipRangeQuads\sde_common.DBO.township_bands,common,township_bands,sde
+68,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.TownshipRangeQuads\sde_common.DBO.township_node,common,township_node,sde
+69,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.TownshipRangeQuads\sde_common.DBO.township_arc,common,township_arc,sde
+70,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.TownshipRangeQuads\sde_common.DBO.meridians,common,meridians,sde
+71,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.TownshipRangeQuads\sde_common.DBO.sections,common,sections,sde
+72,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.TownshipRangeQuads\sde_common.DBO.itmquads,common,itmquads,sde
+73,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.TownshipRangeQuads\sde_common.DBO.usgs25Kquads,common,usgs25Kquads,sde
+74,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.TownshipRangeQuads\sde_common.DBO.qmquads,common,qmquads,sde
+75,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.TownshipRangeQuads\sde_common.DBO.township_polygon,common,township_polygon,sde
+76,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.TownshipRangeQuads\sde_common.DBO.protracted_pts,common,protracted_pts,sde
+77,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.TownshipRangeQuads\sde_common.DBO.township_label,common,township_label,sde
+78,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.PLSS_DD\sde_common.DBO.pro_pt,common,pro_pt,sde
+79,township,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.PLSS_DD\sde_common.DBO.township,common,township,sde
+80,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.PLSS_DD\sde_common.DBO.section,common,section,sde
+81,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NOAA_enc\sde_common.DBO.TopoAreaFeature,common,TopoAreaFeature,sde
+82,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NOAA_enc\sde_common.DBO.TransportationAreaFeature,common,TransportationAreaFeature,sde
+83,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NOAA_enc\sde_common.DBO.RadioRadarEquipmentFeature,common,RadioRadarEquipmentFeature,sde
+84,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NOAA_enc\sde_common.DBO.BerthPointFeature,common,BerthPointFeature,sde
+85,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NOAA_enc\sde_common.DBO.SignalEquipmentFeature,common,SignalEquipmentFeature,sde
+86,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NOAA_enc\sde_common.DBO.BeaconFeature,common,BeaconFeature,sde
+87,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NOAA_enc\sde_common.DBO.BerthLineFeature,common,BerthLineFeature,sde
+88,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NOAA_enc\sde_common.DBO.NavigationPointFeature,common,NavigationPointFeature,sde
+89,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NOAA_enc\sde_common.DBO.UtilityAreaFeature,common,UtilityAreaFeature,sde
+90,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NOAA_enc\sde_common.DBO.CautionAreaFeature,common,CautionAreaFeature,sde
+91,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NOAA_enc\sde_common.DBO.MagneticPointFeature,common,MagneticPointFeature,sde
+92,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NOAA_enc\sde_common.DBO.FacilityPointFeature,common,FacilityPointFeature,sde
+93,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NOAA_enc\sde_common.DBO.DepthLineFeature,common,DepthLineFeature,sde
+94,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NOAA_enc\sde_common.DBO.GatePointFeature,common,GatePointFeature,sde
+95,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NOAA_enc\sde_common.DBO.DockLineFeature,common,DockLineFeature,sde
+96,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NOAA_enc\sde_common.DBO.ControlMarkFeature,common,ControlMarkFeature,sde
+97,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NOAA_enc\sde_common.DBO.DepthAreaFeature,common,DepthAreaFeature,sde
+98,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NOAA_enc\sde_common.DBO.TransportationPointFeature,common,TransportationPointFeature,sde
+99,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NOAA_enc\sde_common.DBO.DockAreaFeature,common,DockAreaFeature,sde
+100,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NOAA_enc\sde_common.DBO.TransportationLineFeature,common,TransportationLineFeature,sde
+101,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NOAA_enc\sde_common.DBO.UtilityLineFeature,common,UtilityLineFeature,sde
+102,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NOAA_enc\sde_common.DBO.NavigationLineFeature,common,NavigationLineFeature,sde
+103,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NOAA_enc\sde_common.DBO.CoastlineFeature,common,CoastlineFeature,sde
+104,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NOAA_enc\sde_common.DBO.RadioRadarSignalFeature,common,RadioRadarSignalFeature,sde
+105,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NOAA_enc\sde_common.DBO.FacilityLineFeature,common,FacilityLineFeature,sde
+106,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NOAA_enc\sde_common.DBO.CoastlinePointFeature,common,CoastlinePointFeature,sde
+107,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NOAA_enc\sde_common.DBO.RegulatedZoneLineFeature,common,RegulatedZoneLineFeature,sde
+108,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NOAA_enc\sde_common.DBO.NavigationAreaFeature,common,NavigationAreaFeature,sde
+109,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NOAA_enc\sde_common.DBO.FacilityAreaFeature,common,FacilityAreaFeature,sde
+110,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NOAA_enc\sde_common.DBO.TopoPointFeature,common,TopoPointFeature,sde
+111,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NOAA_enc\sde_common.DBO.UtilityPointFeature,common,UtilityPointFeature,sde
+112,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NOAA_enc\sde_common.DBO.NauticalPublicationFeature,common,NauticalPublicationFeature,sde
+113,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NOAA_enc\sde_common.DBO.CoastlineAreaFeature,common,CoastlineAreaFeature,sde
+114,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NOAA_enc\sde_common.DBO.RegulatedZonePointFeature,common,RegulatedZonePointFeature,sde
+115,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NOAA_enc\sde_common.DBO.BuoyFeature,common,BuoyFeature,sde
+116,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NOAA_enc\sde_common.DBO.LightStructureFeature,common,LightStructureFeature,sde
+117,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NOAA_enc\sde_common.DBO.MagneticLineFeature,common,MagneticLineFeature,sde
+118,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NOAA_enc\sde_common.DBO.SurveyReliabilityFeature,common,SurveyReliabilityFeature,sde
+119,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NOAA_enc\sde_common.DBO.CautionPointFeature,common,CautionPointFeature,sde
+120,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NOAA_enc\sde_common.DBO.MagneticAreaFeature,common,MagneticAreaFeature,sde
+121,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NOAA_enc\sde_common.DBO.RegulatedZoneAreaFeature,common,RegulatedZoneAreaFeature,sde
+122,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NOAA_enc\sde_common.DBO.BerthAreaFeature,common,BerthAreaFeature,sde
+123,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NOAA_enc\sde_common.DBO.TopoLineFeature,common,TopoLineFeature,sde
+124,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NOAA_enc\sde_common.DBO.RadarRangeFeature,common,RadarRangeFeature,sde
+125,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NOAA_enc\sde_common.DBO.CautionLineFeature,common,CautionLineFeature,sde
+126,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NOAA_enc\sde_common.DBO.MetaDataFeature,common,MetaDataFeature,sde
+127,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NHDWBD\sde_common.DBO.WBD_HU16,common,WBD_HU16,sde
+128,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NHDWBD\sde_common.DBO.WBD_HU10,common,WBD_HU10,sde
+129,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NHDWBD\sde_common.DBO.WBD_HU6,common,WBD_HU6,sde
+130,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NHDWBD\sde_common.DBO.WBD_HU4,common,WBD_HU4,sde
+131,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NHDWBD\sde_common.DBO.WBD_HU8,common,WBD_HU8,sde
+132,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NHDWBD\sde_common.DBO.WBD_HU12,common,WBD_HU12,sde
+133,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NHDWBD\sde_common.DBO.WBD_HU14,common,WBD_HU14,sde
+134,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NHDWBD\sde_common.DBO.WBD_HU2,common,WBD_HU2,sde
+135,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.Hydrography\sde_common.DBO.NHDAreaEventFC,common,NHDAreaEventFC,sde
+136,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.Hydrography\sde_common.DBO.NHDPointEventFC,common,NHDPointEventFC,sde
+137,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.Hydrography\sde_common.DBO.NHDLine,common,NHDLine,sde
+138,nhdArea,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.Hydrography\sde_common.DBO.NHDArea,common,NHDArea,sde
+139,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.Hydrography\sde_common.DBO.HYDRO_NET_Junctions,common,HYDRO_NET_Junctions,sde
+140,flowline,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.Hydrography\sde_common.DBO.NHDFlowline,common,NHDFlowline,sde
+141,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.Hydrography\sde_common.DBO.NHDLineEventFC,common,NHDLineEventFC,sde
+142,waterbody ,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.Hydrography\sde_common.DBO.NHDWaterbody,common,NHDWaterbody,sde
+143,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.Hydrography\sde_common.DBO.NHDPoint,common,NHDPoint,sde
+144,,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.Hydrography\sde_common.DBO.HYDRO_NET,common,HYDRO_NET,sde
+145,,\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\gmu_links,current,gmu_links,fgdb
+146,,\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\leftpoly,current,leftpoly,fgdb
+147,,\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\rightpoly,current,rightpoly,fgdb
+148,UCU,\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\DWCMasters\UCU_poly,current,UCU_poly,fgdb
+149,hunts_static,\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\DWCMasters\DWCHunts,current,DWCHunts,fgdb
+149,SA,\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\DWCMasters\SpecialAreas,current,SpecialAreas,fgdb
+151,,\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\GMULayers\UCU_arc,current,UCU_arc,fgdb
+149,regions,\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\GMULayers\Regions,current,Regions,fgdb
+153,,\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\GMULayers\Regions_coast,current,Regions_coast,fgdb
+149,GMU,\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\GMULayers\GMU,current,GMU,fgdb
+155,,\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\GMULayers\GMU_coast,current,GMU_coast,fgdb
+149,sub,\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\GMULayers\Subunits,current,Subunits,fgdb
+157,,\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\GMULayers\Subunits_coast,current,Subunits_coast,fgdb
+158,,\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\GMULayers\MajorDrainage,current,MajorDrainage,fgdb
+159,,\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\GMULayers\MajorDrainage_coast,current,MajorDrainage_coast,fgdb
+160,,\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\GMULayers\SubMajor,current,SubMajor,fgdb
+161,,\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\GMULayers\SubMajor_coast,current,SubMajor_coast,fgdb
+162,,\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\GMULayers\MinorCode,current,MinorCode,fgdb
+163,,\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\GMULayers\MinorCode_coast,current,MinorCode_coast,fgdb
+164,,\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\GMULayers\UCU,current,UCU,fgdb
+165,,\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\GMULayers\UCU_coast,current,UCU_coast,fgdb
+166,,\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\GMULayers\Caribou_herdcodes,current,Caribou_herdcodes,fgdb
+167,,\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\GMULayers\Sheep_mtncodes,current,Sheep_mtncodes,fgdb
+168,,\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\GMULayers\UCU_centroid,current,UCU_centroid,fgdb
+169,,\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\GMULayers\UCU_land,current,UCU_land,fgdb
+170,,\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\GMULayers\UCU_water,current,UCU_water,fgdb
+171,,\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\GMULayers\SubunitsSqMiList,current,SubunitsSqMiList,fgdb
+172,,\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\HuntLayers\ActiveHunts,current,ActiveHunts,fgdb
+173,,\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\HuntLayers\Bison,current,Bison,fgdb
+174,,\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\HuntLayers\BlackBear,current,BlackBear,fgdb
+175,,\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\HuntLayers\BrownBear,current,BrownBear,fgdb
+176,,\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\HuntLayers\Caribou,current,Caribou,fgdb
+177,,\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\HuntLayers\Deer,current,Deer,fgdb
+178,,\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\HuntLayers\Elk,current,Elk,fgdb
+179,,\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\HuntLayers\Moose,current,Moose,fgdb
+180,,\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\HuntLayers\MtGoat,current,MtGoat,fgdb
+181,,\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\HuntLayers\Muskox,current,Muskox,fgdb
+182,,\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\HuntLayers\Sheep,current,Sheep,fgdb
+183,,\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\HuntLayers\Wolf,current,Wolf,fgdb
+184,,\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\HuntLayers\Wolverine,current,Wolverine,fgdb
+185,,\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\HuntLayers\Goose,current,Goose,fgdb
+186,,\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\HuntLayers\GenSeason,current,GenSeason,fgdb
+187,,\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\HuntLayers\GenSeasonHT,current,GenSeasonHT,fgdb
+188,,\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\HuntLayers\GenSeasonNoHT,current,GenSeasonNoHT,fgdb
+189,,\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\HuntLayers\TierI,current,TierI,fgdb
+190,,\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\HuntLayers\Drawing,current,Drawing,fgdb
+191,,\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\HuntLayers\Registration,current,Registration,fgdb
+192,,\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\HuntLayers\TierII,current,TierII,fgdb
+193,,\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\HuntLayers\Waterfowl,current,Waterfowl,fgdb
+194,,\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\HuntLayers\Resident,current,Resident,fgdb
+195,,\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\HuntLayers\NonResident,current,NonResident,fgdb
+196,,\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\HuntLayers\Closed,current,Closed,fgdb
+197,,\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\HuntLayers\PendingHunts,current,PendingHunts,fgdb
+198,,\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\HuntLayers\Targeted,current,Targeted,fgdb
+199,CA,\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\SpecialAreaLayers\ClosedToHunting,current,ClosedToHunting,fgdb
+200,CUA,\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\SpecialAreaLayers\ControlledUse,current,ControlledUse,fgdb
+201,MA,\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\SpecialAreaLayers\Management,current,Management,fgdb
+202,,\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\SpecialAreaLayers\ClosedToTrapping,current,ClosedToTrapping,fgdb
+203,Ocean_py,\\dfg.alaska.local\GIS\Anchorage\GISStaff\AK_BASE\WATER.gdb\Ocean_py,AK_BASE,Ocean_py,fgdb
+204,rivers_maj,\\dfg.alaska.local\GIS\Anchorage\GISStaff\AK_BASE\WATER.gdb\major_river,AK_BASE,major_river,fgdb
+205,Arctic_cricle,\\dfg.alaska.local\GIS\Anchorage\GISStaff\AK_BASE\ARCTIC_CIRCLE.mdb\arctic_circle,AK_BASE,arctic_circle,pgdb
+206,impactAreas,\\dfg.alaska.local\GIS\Anchorage\GISShare\MILITARY AREAS\MILITARY_AREAS.gdb\dudded_impact_area,MILITARY_AREAS,dudded_impact_area,fgdb
+207,Ak coast simp,\\dfg.alaska.local\GIS\Anchorage\GISShare\Coastline\Alb154\simplecoast.shp,V,simplecoast.shp,shape 
+208,AK parks,\\dfg.alaska.local\GIS\Anchorage\GISShare\boundaries\NPS\2017_akparks\akparks.gdb,V,akparks.gdb,fgdb
+209,AK_refuges,\\dfg.alaska.local\gis\Anchorage\GISShare\boundaries\USFWS_Refuges\AK_Refuges_poly.shp,V,AK_Refuges_poly.shp,shape 
+210,LDAs_dis,\\dfg.alaska.local\GIS\Anchorage\GISStaff\wc\MUMM\Data_toStow\LDA_dis.shp,V,LDA_dis.shp,shape 
+211,rivers_min,\\dfg.alaska.local\GIS\Anchorage\GISStaff\AK_BASE\WATER.gdb\minor_river,AK_BASE,minor_river,fgdb
+212,roads_maj,\\dfg.alaska.local\GIS\Anchorage\GISStaff\AK_BASE\INFRASTRUCTURE.gdb\ROADS\major_roads,AK_BASE,major_roads,fgdb
+213,roads_min,\\dfg.alaska.local\GIS\Anchorage\GISStaff\AK_BASE\INFRASTRUCTURE.gdb\ROADS\minor_roads,AK_BASE,minor_roads,fgdb
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
