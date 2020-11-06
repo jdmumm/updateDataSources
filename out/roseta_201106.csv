@@ -14,10 +14,10 @@
 30," cover_poly","fgdb","c:\sally\nps\ak_nps_parks\akparks\polygon","\\dfg.alaska.local\GIS\Anchorage\GISShare\boundaries\NPS\2017_akparks\akparks.gdb"
 31," cover_poly","shape ","c:\sally\nwr\kennwr_83\refuge\polygon","\\dfg.alaska.local\gis\Anchorage\GISShare\boundaries\USFWS_Refuges\AK_Refuges_poly.shp"
 33," cover_region","sde","C:\Users\jdmumm\mxds\masters\bison\region.hunts","Y:\sde_wcgis_master (dfgjnusql-gi71p).sde\sde_wcgis_master.DBO.DWCMasters\sde_wcgis_master.DBO.DWCHunts"
-34," cover_region","sde","C:\Users\jdmumm\timp\general_hunts\alaska\region.state","Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.Coastlines_Albers\sde_common.DBO.Canada_Russia"
-35," cover_region","_review","T:\WC\timp\general_hunts\alaska\region.gmu",NA
+34," cover_region","sde","C:\Users\jdmumm\timp\general_hunts\alaska\region.state","Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.Coastlines_Albers\sde_common.DBO.AK_coast_ITM"
+35," cover_region","fgdb","T:\WC\timp\general_hunts\alaska\region.gmu","\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\GMULayers\GMU"
 36," cover_region","sde","T:\WC\timp\general_hunts\alaska\region.state","Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.Coastlines_Albers\sde_common.DBO.AK_coast_ITM"
-37," cover_region","sde","T:\WC\timp\general_hunts\redo_ca83\region.ca","Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.Coastlines_Albers\sde_common.DBO.canada_prov"
+37," cover_region","fgdb","T:\WC\timp\general_hunts\redo_ca83\region.ca","\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\SpecialAreaLayers\ClosedToHunting"
 38," cover_region","fgdb","T:\WC\timp\general_hunts\redo_cua83\region.cua","\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\SpecialAreaLayers\ControlledUse"
 39," cover_region","fgdb","T:\WC\timp\general_hunts\redo_ma83\region.ma","\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\SpecialAreaLayers\Management"
 40," cover_region","sde","\\dfg.alaska.local\gis\Anchorage\GISStaff\wc\huntarea\masters\moose_0910\region.hunts","Y:\sde_wcgis_master (dfgjnusql-gi71p).sde\sde_wcgis_master.DBO.DWCMasters\sde_wcgis_master.DBO.DWCHunts"
@@ -26,8 +26,7 @@
 43," cover_region","sde","\\dfg.alaska.local\gis\Anchorage\GISStaff\wc\huntarea\oldmasters\moose\region.hunts","Y:\sde_wcgis_master (dfgjnusql-gi71p).sde\sde_wcgis_master.DBO.DWCMasters\sde_wcgis_master.DBO.DWCHunts"
 44," cover_region","fgdb","\\dfg.alaska.local\gis\Anchorage\GISStaff\wc\specareas\masters\closed\region.closed","\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\SpecialAreaLayers\ClosedToHunting"
 45," cover_region","fgdb","\\dfg.alaska.local\gis\Anchorage\GISStaff\wc\specareas\masters\controlled\region.cua","\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\SpecialAreaLayers\ControlledUse"
-46," cover_region","sde","\\dfg.alaska.local\gis\Anchorage\GISStaff\wc\specareas\masters\goa\region.sua","Y:\sde_wcgis_master (dfgjnusql-gi71p).sde\sde_wcgis_master.DBO.DWCMasters\sde_wcgis_master.DBO.SpecialAreas"
-47," cover_region","_review","\\dfg.alaska.local\gis\Anchorage\GISStaff\wc\timp\general_hunts\alaska\region.gmu",NA
+47," cover_region","fgdb","\\dfg.alaska.local\gis\Anchorage\GISStaff\wc\timp\general_hunts\alaska\region.gmu","\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\GMULayers\GMU"
 48," cover_region","sde","\\dfg.alaska.local\gis\Anchorage\GISStaff\wc\timp\general_hunts\alaska\region.state","Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.Coastlines_Albers\sde_common.DBO.AK_coast_ITM"
 58," fgdb","fgdb","C:\Data\NPS 2010\akparks.gdb\ParkBnd","\\dfg.alaska.local\GIS\Anchorage\GISShare\boundaries\NPS\2017_akparks\akparks.gdb"
 59," fgdb","fgdb","C:\Data\NPS\akparks.gdb\ParkBnd","\\dfg.alaska.local\GIS\Anchorage\GISShare\boundaries\NPS\2017_akparks\akparks.gdb"
@@ -36,9 +35,8 @@
 62," fgdb","sde","C:\GISShare\_nhd\2013April\NHDH_AK.gdb\Hydrography\NHDWaterbody","Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.Hydrography\sde_common.DBO.NHDWaterbody"
 64," fgdb","sde","C:\Sally\NHD_Alaska.gdb\NHDFlowline","Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.Hydrography\sde_common.DBO.NHDFlowline"
 65," fgdb","sde","C:\Sally\NHD_Alaska.gdb\NHDWaterbody","Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.Hydrography\sde_common.DBO.NHDWaterbody"
-86," fgdb","_review","S:\wc\DWCcommon_current.gdb\DWCMasters\SpecialAreas",NA
-87," fgdb","_review","S:\wc\DWCcommon_current.gdb\GMUDissolved\GMU_Subunit",NA
-88," fgdb","sde","U:\WC\huntarea\2015 40Mile Zones.gdb\zones40mile","Y:\sde_wcgis_master (dfgjnusql-gi71p).sde\sde_wcgis_master.DBO.areanamesCurrent"
+86," fgdb","fgdb","S:\wc\DWCcommon_current.gdb\DWCMasters\SpecialAreas","\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\DWCMasters\SpecialAreas"
+87," fgdb","fgdb","S:\wc\DWCcommon_current.gdb\GMUDissolved\GMU_Subunit","\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\GMULayers\Subunits"
 91," fgdb","sde","V:\_nhd\2010\NHD21001_AK.gdb\Hydrography\NHDFlowline","Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.Hydrography\sde_common.DBO.NHDFlowline"
 92," fgdb","sde","V:\_nhd\2010\NHD21001_AK.gdb\Hydrography\NHDWaterbody","Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.Hydrography\sde_common.DBO.NHDWaterbody"
 93," fgdb","sde","V:\_nhd\2011Nov\NHDH_AK_92v200.gdb\Hydrography\NHDFlowline","Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.Hydrography\sde_common.DBO.NHDFlowline"
@@ -53,42 +51,42 @@
 102," fgdb","sde","V:\_nhd\2015March\NHDH_AK.gdb\Hydrography\NHDWaterbody","Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.Hydrography\sde_common.DBO.NHDWaterbody"
 103," fgdb","sde","V:\dwc_hunts_specarea_gmu\Current20190701.gdb\DWCMasters\DWCHunts","Y:\sde_wcgis_master (dfgjnusql-gi71p).sde\sde_wcgis_master.DBO.DWCMasters\sde_wcgis_master.DBO.DWCHunts"
 104," fgdb","sde","V:\dwc_hunts_specarea_gmu\Current20190701.gdb\DWCMasters\SpecialAreas","Y:\sde_wcgis_master (dfgjnusql-gi71p).sde\sde_wcgis_master.DBO.DWCMasters\sde_wcgis_master.DBO.SpecialAreas"
-105," fgdb","_review","V:\dwc_hunts_specarea_gmu\Current20190701.gdb\GMULayers\GMU",NA
-106," fgdb","_review","V:\dwc_hunts_specarea_gmu\Current20190701.gdb\GMULayers\Regions",NA
-107," fgdb","_review","V:\dwc_hunts_specarea_gmu\Current20190701.gdb\GMULayers\Subunits",NA
+105," fgdb","fgdb","V:\dwc_hunts_specarea_gmu\Current20190701.gdb\GMULayers\GMU","\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\GMULayers\GMU"
+106," fgdb","fgdb","V:\dwc_hunts_specarea_gmu\Current20190701.gdb\GMULayers\Regions","\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\GMULayers\Regions"
+107," fgdb","fgdb","V:\dwc_hunts_specarea_gmu\Current20190701.gdb\GMULayers\Subunits","\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\GMULayers\Subunits"
 108," fgdb","fgdb","V:\dwc_hunts_specarea_gmu\Current20190701.gdb\SpecialAreaLayers\ClosedToHunting","\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\SpecialAreaLayers\ClosedToHunting"
 109," fgdb","fgdb","V:\dwc_hunts_specarea_gmu\Current20190701.gdb\SpecialAreaLayers\ControlledUse","\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\SpecialAreaLayers\ControlledUse"
 110," fgdb","fgdb","V:\dwc_hunts_specarea_gmu\Current20190701.gdb\SpecialAreaLayers\Management","\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\SpecialAreaLayers\Management"
 111," fgdb","fgdb","\\DFGANCDWCGIS3\gisshare\MILITARY AREAS\MILITARY_AREAS.gdb\dudded_impact_area","\\dfg.alaska.local\GIS\Anchorage\GISShare\MILITARY AREAS\MILITARY_AREAS.gdb\dudded_impact_area"
 112," fgdb","sde","\\DFGANCDWCGIS3\gisshare\_nhd\2010\NHD21001_AK.gdb\Hydrography\NHDWaterbody","Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.Hydrography\sde_common.DBO.NHDWaterbody"
 113," fgdb","sde","\\DFGANCDWCGIS3\gisshare\_nhd\2015March\NHDH_AK.gdb\Hydrography\NHDFlowline","Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.Hydrography\sde_common.DBO.NHDFlowline"
-114," fgdb","_review","\\DFGANCGISDEV2\agsdev\data\wc\Master_current.gdb\GMULayers\Subunits",NA
-115," fgdb","_review","\\DFGANCGISPROD1\data\wc\DWCcommon_current.gdb\GMUDissolved\GMU_GMU",NA
-116," fgdb","_review","\\DFGANCGISPROD1\data\wc\DWCcommon_current.gdb\GMUDissolved\GMU_Subunit",NA
+114," fgdb","fgdb","\\DFGANCGISDEV2\agsdev\data\wc\Master_current.gdb\GMULayers\Subunits","\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\GMULayers\Subunits"
+115," fgdb","fgdb","\\DFGANCGISPROD1\data\wc\DWCcommon_current.gdb\GMUDissolved\GMU_GMU","\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\GMULayers\GMU"
+116," fgdb","fgdb","\\DFGANCGISPROD1\data\wc\DWCcommon_current.gdb\GMUDissolved\GMU_Subunit","\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\GMULayers\Subunits"
 117," fgdb","fgdb","\\DFGANCGISPROD1\data\wc\DWCcommon_current.gdb\GMUDissolved\GMU_UCU_coast","\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\DWCMasters\UCU_poly"
-118," fgdb","_review","\\DFGANCGISPROD1\data\wc\Master_current.gdb\GMULayers\GMU",NA
-119," fgdb","_review","\\DFGANCGISPROD1\data\wc\Master_current.gdb\GMULayers\Subunits",NA
+118," fgdb","fgdb","\\DFGANCGISPROD1\data\wc\Master_current.gdb\GMULayers\GMU","\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\GMULayers\GMU"
+119," fgdb","fgdb","\\DFGANCGISPROD1\data\wc\Master_current.gdb\GMULayers\Subunits","\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\GMULayers\Subunits"
 120," fgdb","fgdb","\\DFGANCGISPROD1\data\wc\Master_current.gdb\GMULayers\UCU","\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\DWCMasters\UCU_poly"
-121," fgdb","_review","\\DFGANCGISPROD1\data\wc\WMA_GMU.gdb\Regions",NA
-122," fgdb","_review","\\DFGANCGISPROD1\data\wc\WMA_GMU.gdb\Subunits",NA
+121," fgdb","fgdb","\\DFGANCGISPROD1\data\wc\WMA_GMU.gdb\Regions","\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\GMULayers\Regions"
+122," fgdb","fgdb","\\DFGANCGISPROD1\data\wc\WMA_GMU.gdb\Subunits","\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\GMULayers\Subunits"
 123," fgdb","sde","\\DFGANCGISPROD2\agsprod\data\common\Hydro\NHD21001_AK.gdb\Hydrography\NHDWaterbody","Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.Hydrography\sde_common.DBO.NHDWaterbody"
 124," fgdb","sde","\\DFGANCGISPROD2\agsprod\data\wc\Master_current.gdb\DWCMasters\DWCHunts","Y:\sde_wcgis_master (dfgjnusql-gi71p).sde\sde_wcgis_master.DBO.DWCMasters\sde_wcgis_master.DBO.DWCHunts"
-125," fgdb","_review","\\DFGANCGISPROD2\agsprod\data\wc\Master_current.gdb\GMULayers\GMU",NA
-126," fgdb","_review","\\DFGANCGISPROD2\agsprod\data\wc\Master_current.gdb\GMULayers\Subunits",NA
+125," fgdb","fgdb","\\DFGANCGISPROD2\agsprod\data\wc\Master_current.gdb\GMULayers\GMU","\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\GMULayers\GMU"
+126," fgdb","fgdb","\\DFGANCGISPROD2\agsprod\data\wc\Master_current.gdb\GMULayers\Subunits","\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\GMULayers\Subunits"
 127," fgdb","sde","\\Wcgis-server3\gisshare\_nhd\2010\NHD21001_AK.gdb\Hydrography\NHDFlowline","Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.Hydrography\sde_common.DBO.NHDFlowline"
-128," fgdb","_review","\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current20181109.gdb\GMULayers\Subunits",NA
+128," fgdb","fgdb","\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current20181109.gdb\GMULayers\Subunits","\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\GMULayers\Subunits"
 129," fgdb","sde","\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current20190204.gdb\DWCMasters\DWCHunts","Y:\sde_wcgis_master (dfgjnusql-gi71p).sde\sde_wcgis_master.DBO.DWCMasters\sde_wcgis_master.DBO.DWCHunts"
 130," fgdb","sde","\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current20190204.gdb\DWCMasters\SpecialAreas","Y:\sde_wcgis_master (dfgjnusql-gi71p).sde\sde_wcgis_master.DBO.DWCMasters\sde_wcgis_master.DBO.SpecialAreas"
-131," fgdb","_review","\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current20190204.gdb\GMULayers\GMU",NA
-132," fgdb","_review","\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current20190204.gdb\GMULayers\Subunits",NA
+131," fgdb","fgdb","\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current20190204.gdb\GMULayers\GMU","\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\GMULayers\GMU"
+132," fgdb","fgdb","\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current20190204.gdb\GMULayers\Subunits","\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\GMULayers\Subunits"
 133," fgdb","fgdb","\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current20190204.gdb\GMULayers\UCU","\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\DWCMasters\UCU_poly"
 134," fgdb","fgdb","\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current20190204.gdb\SpecialAreaLayers\ClosedToHunting","\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\SpecialAreaLayers\ClosedToHunting"
 135," fgdb","fgdb","\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current20190204.gdb\SpecialAreaLayers\ControlledUse","\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\SpecialAreaLayers\ControlledUse"
-136," fgdb","_review","\\dfg.alaska.local\GIS\Servers\PROD\data\wc\Master_current.gdb\GMULayers\GMU",NA
-137," fgdb","_review","\\dfg.alaska.local\GIS\Servers\PROD\data\wc\Master_current.gdb\GMULayers\Subunits",NA
-138," fgdb","_review","\\dfg.alaska.local\gis\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current20190204.gdb\DWCMasters\DWCHunts",NA
+136," fgdb","fgdb","\\dfg.alaska.local\GIS\Servers\PROD\data\wc\Master_current.gdb\GMULayers\GMU","\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\GMULayers\GMU"
+137," fgdb","fgdb","\\dfg.alaska.local\GIS\Servers\PROD\data\wc\Master_current.gdb\GMULayers\Subunits","\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\GMULayers\Subunits"
+138," fgdb","fgdb","\\dfg.alaska.local\gis\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current20190204.gdb\DWCMasters\DWCHunts","\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\DWCMasters\DWCHunts"
 139," fgdb","sde","\\dfg.alaska.local\gis\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current20190204.gdb\DWCMasters\SpecialAreas","Y:\sde_wcgis_master (dfgjnusql-gi71p).sde\sde_wcgis_master.DBO.DWCMasters\sde_wcgis_master.DBO.SpecialAreas"
-140," fgdb","_review","\\dfg.alaska.local\gis\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current20190204.gdb\GMULayers\GMU",NA
+140," fgdb","fgdb","\\dfg.alaska.local\gis\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current20190204.gdb\GMULayers\GMU","\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\GMULayers\GMU"
 141," fgdb","fgdb","\\dfg.alaska.local\gis\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current20190204.gdb\SpecialAreaLayers\ClosedToHunting","\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\SpecialAreaLayers\ClosedToHunting"
 143," fgdb","sde","\\dfg.alaska.local\gis\Anchorage\GISShare\_nhd\2010\NHD21001_AK.gdb\Hydrography\NHDFlowline","Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.Hydrography\sde_common.DBO.NHDFlowline"
 144," fgdb","sde","\\dfg.alaska.local\gis\Anchorage\GISShare\_nhd\2010\NHD21001_AK.gdb\Hydrography\NHDWaterbody","Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.Hydrography\sde_common.DBO.NHDWaterbody"
@@ -112,19 +110,19 @@
 166," fgdb","sde","\\dfgancdwcgis3\gisshare\Infrastructure\ADOT_centerline_mileposts.gdb\dot_centerline_route","Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.BaseFeatures\sde_common.DBO.dot_centerline_route"
 167," fgdb","sde","\\dfgancdwcgis3\gisshare\_nhd\2011Nov\NHDH_AK_92v200.gdb\Hydrography\NHDFlowline","Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.Hydrography\sde_common.DBO.NHDFlowline"
 168," fgdb","sde","\\dfgancdwcgis3\gisshare\_nhd\2011Nov\NHDH_AK_92v200.gdb\Hydrography\NHDWaterbody","Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.Hydrography\sde_common.DBO.NHDWaterbody"
-172," fgdb","_review","\\dfgancgisdev2\agsdev\data\wc\Master_current.gdb\GMULayers\GMU",NA
-173," fgdb","_review","\\dfgancgisdev2\agsdev\data\wc\Master_current.gdb\GMULayers\Regions",NA
-174," fgdb","_review","\\dfgancgisdev2\agsdev\data\wc\Master_current.gdb\GMULayers\Subunits",NA
+172," fgdb","fgdb","\\dfgancgisdev2\agsdev\data\wc\Master_current.gdb\GMULayers\GMU","\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\GMULayers\GMU"
+173," fgdb","fgdb","\\dfgancgisdev2\agsdev\data\wc\Master_current.gdb\GMULayers\Regions","\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\GMULayers\Regions"
+174," fgdb","fgdb","\\dfgancgisdev2\agsdev\data\wc\Master_current.gdb\GMULayers\Subunits","\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\GMULayers\Subunits"
 175," fgdb","sde","\\dfgancgisdev3\agsdev\data\wc\Master_current.gdb\DWCMasters\DWCHunts","Y:\sde_wcgis_master (dfgjnusql-gi71p).sde\sde_wcgis_master.DBO.DWCMasters\sde_wcgis_master.DBO.DWCHunts"
-176," fgdb","_review","\\dfgancgisdev3\agsdev\data\wc\Master_current.gdb\DWCMasters\SpecialAreas",NA
+176," fgdb","fgdb","\\dfgancgisdev3\agsdev\data\wc\Master_current.gdb\DWCMasters\SpecialAreas","\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\DWCMasters\SpecialAreas"
 177," fgdb","sde","\\dfgancgisdev3\agsdev\data\wc\Master_current.gdb\DWCMasters\UCU_poly","Y:\sde_wcgis_master (dfgjnusql-gi71p).sde\sde_wcgis_master.DBO.DWCMasters\sde_wcgis_master.DBO.UCU_poly"
-178," fgdb","_review","\\dfgancgisdev3\agsdev\data\wc\Master_current.gdb\GMULayers\GMU",NA
-179," fgdb","_review","\\dfgancgisdev3\agsdev\data\wc\Master_current.gdb\GMULayers\Subunits",NA
+178," fgdb","fgdb","\\dfgancgisdev3\agsdev\data\wc\Master_current.gdb\GMULayers\GMU","\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\GMULayers\GMU"
+179," fgdb","fgdb","\\dfgancgisdev3\agsdev\data\wc\Master_current.gdb\GMULayers\Subunits","\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\GMULayers\Subunits"
 180," fgdb","fgdb","\\dfgancgisdev3\agsdev\data\wc\Master_current.gdb\SpecialAreaLayers\ClosedToHunting","\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\SpecialAreaLayers\ClosedToHunting"
 181," fgdb","fgdb","\\dfgancgisdev3\agsdev\data\wc\Master_current.gdb\SpecialAreaLayers\ControlledUse","\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\SpecialAreaLayers\ControlledUse"
 182," fgdb","fgdb","\\dfgancgisdev3\agsdev\data\wc\Master_current.gdb\SpecialAreaLayers\Management","\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\SpecialAreaLayers\Management"
-183," fgdb","_review","\\dfgancgisprod1\agsprod\data\wc\Master_current.gdb\GMULayers\GMU",NA
-184," fgdb","_review","\\dfgancgisprod1\agsprod\data\wc\Master_current.gdb\GMULayers\Subunits",NA
+183," fgdb","fgdb","\\dfgancgisprod1\agsprod\data\wc\Master_current.gdb\GMULayers\GMU","\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\GMULayers\GMU"
+184," fgdb","fgdb","\\dfgancgisprod1\agsprod\data\wc\Master_current.gdb\GMULayers\Subunits","\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\GMULayers\Subunits"
 186," pgdb","sde","C:\GISShare\Infrastructure\ADOT_02152007_routes_mileposts.mdb\RouteFeatures","Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.BaseFeatures\sde_common.DBO.dot_centerline_route"
 187," pgdb","sde","C:\Users\Grids\Township_Sections.mdb\township_polygon","Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.PLSS_DD\sde_common.DBO.township"
 190," pgdb","sde","\\dfg.alaska.local\gis\Anchorage\GISShare\Infrastructure\ADOT_02152007_routes_mileposts.mdb\Mileposts","Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.BaseFeatures\sde_common.DBO.dot_centerline_milepost"
@@ -175,11 +173,11 @@
 245," raster","sde","C:\Users\jdmumm\AppData\Local\Temp\16\arc6107\f9c3309ab12cc1cae61df973a9ad238e.sde\SDE_COMMON.SDEWILD.NED_HILLSHADECLIP","Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NED_HILLCLIP"
 246," raster","sde","C:\Users\sktimp.DFG\AppData\Roaming\ESRI\Desktop10.0\ArcCatalog\_prodDC - sdewcuser@common.sde\SDE_COMMON.SDEDFG.AK_SHADE","Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.AK_SHADE"
 247," raster","sde","C:\Users\sktimp.DFG\AppData\Roaming\ESRI\Desktop10.0\ArcCatalog\_prodDC - sdewcuser@common.sde\SDE_COMMON.SDEDFG.NED_HILLCLIP","Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NED_CLIP"
-248," raster","sde","C:\Users\sktimp.DFG\AppData\Roaming\ESRI\Desktop10.0\ArcCatalog\_prodDC - sdewcuser@common.sde\SDE_COMMON.SDEDFG.NGS_ITM_HILLSHADE_DD","Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NED_HILLCLIP"
+248," raster","sde","C:\Users\sktimp.DFG\AppData\Roaming\ESRI\Desktop10.0\ArcCatalog\_prodDC - sdewcuser@common.sde\SDE_COMMON.SDEDFG.NGS_ITM_HILLSHADE_DD","Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NGS_ITM_HILLSHADE_DD"
 249," raster","sde","C:\Users\sktimp.DFG\AppData\Roaming\ESRI\Desktop10.0\ArcCatalog\_prodDC - sdewcuser@common.sde\SDE_COMMON.SDEDFG.NGS_ITM_TOPO_DD","Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NGS_ITM_TOPO_DD"
 250," raster","sde","C:\Users\sktimp.DFG\AppData\Roaming\ESRI\Desktop10.0\ArcCatalog\_prodDC - sdewcuser@common.sde\SDE_COMMON.SDEDFG.NGS_QM_TOPO_DD","Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NGS_QM_TOPO_DD"
-251," raster","sde","C:\Users\sktimp.DFG\AppData\Roaming\ESRI\Desktop10.1\ArcCatalog\_prodDC - sdewcuser@common.sde\SDE_COMMON.SDEDFG.NED_HILLCLIP","Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NED_HILLRAW"
-252," raster","sde","C:\Users\sktimp.DFG\AppData\Roaming\ESRI\Desktop10.2\ArcCatalog\_prodDC - sdewcuser@common.sde\SDE_COMMON.SDEDFG.NED_HILLCLIP","Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NED_HILLRAW"
+251," raster","sde","C:\Users\sktimp.DFG\AppData\Roaming\ESRI\Desktop10.1\ArcCatalog\_prodDC - sdewcuser@common.sde\SDE_COMMON.SDEDFG.NED_HILLCLIP","Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NED_HILLCLIP"
+252," raster","sde","C:\Users\sktimp.DFG\AppData\Roaming\ESRI\Desktop10.2\ArcCatalog\_prodDC - sdewcuser@common.sde\SDE_COMMON.SDEDFG.NED_HILLCLIP","Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NED_HILLCLIP"
 253," raster","sde","C:\Users\sktimp.DFG\AppData\Roaming\ESRI\Desktop10.2\ArcCatalog\_prodDC - sdewcuser@common.sde\SDE_COMMON.SDEDFG.NGS_ITM_HILLSHADE_DD","Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NGS_ITM_TOPO_DD"
 254," raster","sde","C:\Users\sktimp.DFG\AppData\Roaming\ESRI\Desktop10.2\ArcCatalog\_prodDC - sdewcuser@common.sde\SDE_COMMON.SDEDFG.NGS_QM_TOPO_DD","Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NGS_QM_TOPO_DD"
 255," raster","sde","C:\Users\sktimp.DFG\AppData\Roaming\ESRI\Desktop10.3\ArcCatalog\_prodDC - sdewcuser@common.sde\SDE_COMMON.SDEDFG.NED_HILLCLIP","Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.NED_HILLCLIP"
@@ -202,9 +200,9 @@
 282," sde","sde","C:\Documents and Settings\sktimp\Application Data\ESRI\ArcCatalog\Connection to wcgis-server3 (2).sde\sde_common83.SDEWILD.Hydrography\sde_common83.SDEWILD.NHDFlowline","Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.Hydrography\sde_common.DBO.NHDFlowline"
 283," sde","sde","C:\Documents and Settings\sktimp\Application Data\ESRI\ArcCatalog\Connection to wcgis-server3 (2).sde\sde_common83.SDEWILD.Hydrography\sde_common83.SDEWILD.NHDWaterbody","Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.Hydrography\sde_common.DBO.NHDWaterbody"
 284," sde","sde","C:\Documents and Settings\sktimp\Application Data\ESRI\ArcCatalog\Connection to wcgis-server3.sde\sde_common83.SDEWILD.Hydrography\sde_common83.SDEWILD.NHDFlowline","Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.Hydrography\sde_common.DBO.NHDFlowline"
-285," sde","_review","C:\Documents and Settings\sktimp\Application Data\ESRI\ArcCatalog\sdewilduser@sde_wc.sde\sde_wc.SDEWILD.gmu_062409\sde_wc.SDEWILD.gmus4",NA
-286," sde","_review","C:\Documents and Settings\sktimp\Application Data\ESRI\ArcCatalog\sdewilduser@sde_wc.sde\sde_wc.SDEWILD.gmu_062409\sde_wc.SDEWILD.regions4",NA
-287," sde","_review","C:\Documents and Settings\sktimp\Application Data\ESRI\ArcCatalog\sdewilduser@sde_wc.sde\sde_wc.SDEWILD.gmu_062409\sde_wc.SDEWILD.subs4",NA
+285," sde","fgdb","C:\Documents and Settings\sktimp\Application Data\ESRI\ArcCatalog\sdewilduser@sde_wc.sde\sde_wc.SDEWILD.gmu_062409\sde_wc.SDEWILD.gmus4","\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\GMULayers\GMU"
+286," sde","fgdb","C:\Documents and Settings\sktimp\Application Data\ESRI\ArcCatalog\sdewilduser@sde_wc.sde\sde_wc.SDEWILD.gmu_062409\sde_wc.SDEWILD.regions4","\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\GMULayers\Regions"
+287," sde","fgdb","C:\Documents and Settings\sktimp\Application Data\ESRI\ArcCatalog\sdewilduser@sde_wc.sde\sde_wc.SDEWILD.gmu_062409\sde_wc.SDEWILD.subs4","\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\GMULayers\Subunits"
 288," sde","sde","C:\Documents and Settings\sktimp\Application Data\ESRI\ArcCatalog\sdewilduser@sde_wcdev.sde\SDE_WCDEV.SDEWILD.NHDFLOWLINE_AK","Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.Hydrography\sde_common.DBO.NHDFlowline"
 289," sde","sde","C:\Documents and Settings\sktimp\Application Data\ESRI\ArcCatalog\sdewilduser@sdecommon.sde\sde_common.SDEWILD.BASE\sde_common.SDEWILD.GNIS_Placenames","Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.BaseFeaturesDD\sde_common.DBO.placenames_AKGNIS"
 290," sde","sde","C:\Documents and Settings\sktimp\Application Data\ESRI\ArcCatalog\sdewilduser@sdecommon.sde\sde_common.SDEWILD.BASE_OLDNad27\sde_common.SDEWILD.Orth_temp","Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.BaseFeatures\sde_common.DBO.placenames_orth"
@@ -220,23 +218,23 @@
 300," sde","sde","C:\Users\jdmumm\AppData\Local\Temp\16\arc6107\0bc73b1e1b3241f73b9725764e12ed37.sde\sde_wcgis_master.DBO.DWCMasters\sde_wcgis_master.DBO.DWCHunts","Y:\sde_wcgis_master (dfgjnusql-gi71p).sde\sde_wcgis_master.DBO.DWCMasters\sde_wcgis_master.DBO.DWCHunts"
 301," sde","sde","C:\Users\jdmumm\AppData\Local\Temp\16\arc6107\0c832234abc38fc45d97870b8712f75e.sde\sde_wcgis_master.DBO.DWCMasters\sde_wcgis_master.DBO.DWCHunts","Y:\sde_wcgis_master (dfgjnusql-gi71p).sde\sde_wcgis_master.DBO.DWCMasters\sde_wcgis_master.DBO.DWCHunts"
 302," sde","sde","C:\Users\jdmumm\AppData\Local\Temp\16\arc6107\12f9b1690bc790b8dc92041534917dca.sde\sde_wcgis_master.DBO.DWCMasters\sde_wcgis_master.DBO.DWCHunts","Y:\sde_wcgis_master (dfgjnusql-gi71p).sde\sde_wcgis_master.DBO.DWCMasters\sde_wcgis_master.DBO.DWCHunts"
-303," sde","_review","C:\Users\jdmumm\AppData\Local\Temp\16\arc6107\1396c2f793eace75d8f0d82651156c55.sde\sde_wc_dev1.SDEWILD.DWCMasters\sde_wc_dev1.SDEWILD.SpecialAreas",NA
+303," sde","fgdb","C:\Users\jdmumm\AppData\Local\Temp\16\arc6107\1396c2f793eace75d8f0d82651156c55.sde\sde_wc_dev1.SDEWILD.DWCMasters\sde_wc_dev1.SDEWILD.SpecialAreas","\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\DWCMasters\SpecialAreas"
 304," sde","sde","C:\Users\jdmumm\AppData\Local\Temp\16\arc6107\1420eab7ce16e3d4bf1f87721807f15e.sde\sde_wcgis_master.DBO.DWCMasters\sde_wcgis_master.DBO.DWCHunts","Y:\sde_wcgis_master (dfgjnusql-gi71p).sde\sde_wcgis_master.DBO.DWCMasters\sde_wcgis_master.DBO.DWCHunts"
 305," sde","sde","C:\Users\jdmumm\AppData\Local\Temp\16\arc6107\184bb6ec5f8b0a579ef127018790e4a7.sde\sde_wc_dev1.SDEWILD.DWCMasters\sde_wc_dev1.SDEWILD.DWCHunts","Y:\sde_wcgis_master (dfgjnusql-gi71p).sde\sde_wcgis_master.DBO.DWCMasters\sde_wcgis_master.DBO.DWCHunts"
-306," sde","_review","C:\Users\jdmumm\AppData\Local\Temp\16\arc6107\184bb6ec5f8b0a579ef127018790e4a7.sde\sde_wc_dev1.SDEWILD.DWCMasters\sde_wc_dev1.SDEWILD.SpecialAreas",NA
+306," sde","fgdb","C:\Users\jdmumm\AppData\Local\Temp\16\arc6107\184bb6ec5f8b0a579ef127018790e4a7.sde\sde_wc_dev1.SDEWILD.DWCMasters\sde_wc_dev1.SDEWILD.SpecialAreas","\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\DWCMasters\SpecialAreas"
 307," sde","sde","C:\Users\jdmumm\AppData\Local\Temp\16\arc6107\1dc3d2b4d584e9f727015a00ea97ed17.sde\sde_wcgis_master.DBO.DWCMasters\sde_wcgis_master.DBO.DWCHunts","Y:\sde_wcgis_master (dfgjnusql-gi71p).sde\sde_wcgis_master.DBO.DWCMasters\sde_wcgis_master.DBO.DWCHunts"
 308," sde","sde","C:\Users\jdmumm\AppData\Local\Temp\16\arc6107\1ed989020a6caca49d6f69be1c93cd27.sde\sde_wcgis_master.DBO.DWCMasters\sde_wcgis_master.DBO.DWCHunts","Y:\sde_wcgis_master (dfgjnusql-gi71p).sde\sde_wcgis_master.DBO.DWCMasters\sde_wcgis_master.DBO.DWCHunts"
 309," sde","sde","C:\Users\jdmumm\AppData\Local\Temp\16\arc6107\20659274ff954cf7157f101ee0da1cee.sde\sde_wc_dev1.SDEWILD.DWCMasters\sde_wc_dev1.SDEWILD.DWCHunts","Y:\sde_wcgis_master (dfgjnusql-gi71p).sde\sde_wcgis_master.DBO.DWCMasters\sde_wcgis_master.DBO.DWCHunts"
-310," sde","_review","C:\Users\jdmumm\AppData\Local\Temp\16\arc6107\20659274ff954cf7157f101ee0da1cee.sde\sde_wc_dev1.SDEWILD.DWCMasters\sde_wc_dev1.SDEWILD.SpecialAreas",NA
+310," sde","fgdb","C:\Users\jdmumm\AppData\Local\Temp\16\arc6107\20659274ff954cf7157f101ee0da1cee.sde\sde_wc_dev1.SDEWILD.DWCMasters\sde_wc_dev1.SDEWILD.SpecialAreas","\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\DWCMasters\SpecialAreas"
 311," sde","sde","C:\Users\jdmumm\AppData\Local\Temp\16\arc6107\21e4eaafbb4198bd208252090bf0bdb8.sde\sde_wc_dev1.SDEWILD.DWCMasters\sde_wc_dev1.SDEWILD.DWCHunts","Y:\sde_wcgis_master (dfgjnusql-gi71p).sde\sde_wcgis_master.DBO.DWCMasters\sde_wcgis_master.DBO.DWCHunts"
-312," sde","_review","C:\Users\jdmumm\AppData\Local\Temp\16\arc6107\21e4eaafbb4198bd208252090bf0bdb8.sde\sde_wc_dev1.SDEWILD.DWCMasters\sde_wc_dev1.SDEWILD.SpecialAreas",NA
+312," sde","fgdb","C:\Users\jdmumm\AppData\Local\Temp\16\arc6107\21e4eaafbb4198bd208252090bf0bdb8.sde\sde_wc_dev1.SDEWILD.DWCMasters\sde_wc_dev1.SDEWILD.SpecialAreas","\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\DWCMasters\SpecialAreas"
 313," sde","sde","C:\Users\jdmumm\AppData\Local\Temp\16\arc6107\2279b1f55a49e72cc9277149ff70b200.sde\sde_wcgis_master.DBO.DWCMasters\sde_wcgis_master.DBO.DWCHunts","Y:\sde_wcgis_master (dfgjnusql-gi71p).sde\sde_wcgis_master.DBO.DWCMasters\sde_wcgis_master.DBO.DWCHunts"
 314," sde","sde","C:\Users\jdmumm\AppData\Local\Temp\16\arc6107\27242c4fba49eaac5554a0baa19fb853.sde\sde_wc_dev1.SDEWILD.DWCMasters\sde_wc_dev1.SDEWILD.DWCHunts","Y:\sde_wcgis_master (dfgjnusql-gi71p).sde\sde_wcgis_master.DBO.DWCMasters\sde_wcgis_master.DBO.DWCHunts"
-315," sde","_review","C:\Users\jdmumm\AppData\Local\Temp\16\arc6107\27242c4fba49eaac5554a0baa19fb853.sde\sde_wc_dev1.SDEWILD.DWCMasters\sde_wc_dev1.SDEWILD.SpecialAreas",NA
+315," sde","fgdb","C:\Users\jdmumm\AppData\Local\Temp\16\arc6107\27242c4fba49eaac5554a0baa19fb853.sde\sde_wc_dev1.SDEWILD.DWCMasters\sde_wc_dev1.SDEWILD.SpecialAreas","\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\DWCMasters\SpecialAreas"
 316," sde","sde","C:\Users\jdmumm\AppData\Local\Temp\16\arc6107\28842ee985b928639c1f0c1aefc4126a.sde\sde_wcgis_master.DBO.DWCMasters\sde_wcgis_master.DBO.DWCHunts","Y:\sde_wcgis_master (dfgjnusql-gi71p).sde\sde_wcgis_master.DBO.DWCMasters\sde_wcgis_master.DBO.DWCHunts"
-317," sde","_review","C:\Users\jdmumm\AppData\Local\Temp\16\arc6107\28842ee985b928639c1f0c1aefc4126a.sde\sde_wcgis_master.DBO.DWCMasters\sde_wcgis_master.DBO.SpecialAreas",NA
+317," sde","fgdb","C:\Users\jdmumm\AppData\Local\Temp\16\arc6107\28842ee985b928639c1f0c1aefc4126a.sde\sde_wcgis_master.DBO.DWCMasters\sde_wcgis_master.DBO.SpecialAreas","\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\DWCMasters\SpecialAreas"
 318," sde","sde","C:\Users\jdmumm\AppData\Local\Temp\16\arc6107\290cd136142d9b10f6c3f28b0349b845.sde\sde_wc_dev1.SDEWILD.DWCMasters\sde_wc_dev1.SDEWILD.DWCHunts","Y:\sde_wcgis_master (dfgjnusql-gi71p).sde\sde_wcgis_master.DBO.DWCMasters\sde_wcgis_master.DBO.DWCHunts"
-319," sde","_review","C:\Users\jdmumm\AppData\Local\Temp\16\arc6107\290cd136142d9b10f6c3f28b0349b845.sde\sde_wc_dev1.SDEWILD.DWCMasters\sde_wc_dev1.SDEWILD.SpecialAreas",NA
+319," sde","fgdb","C:\Users\jdmumm\AppData\Local\Temp\16\arc6107\290cd136142d9b10f6c3f28b0349b845.sde\sde_wc_dev1.SDEWILD.DWCMasters\sde_wc_dev1.SDEWILD.SpecialAreas","\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\DWCMasters\SpecialAreas"
 320," sde","sde","C:\Users\jdmumm\AppData\Local\Temp\16\arc6107\2d925332b1bea18bc55b729dcf4fcf70.sde\sde_wcgis_master.DBO.DWCMasters\sde_wcgis_master.DBO.DWCHunts","Y:\sde_wcgis_master (dfgjnusql-gi71p).sde\sde_wcgis_master.DBO.DWCMasters\sde_wcgis_master.DBO.DWCHunts"
 321," sde","sde","C:\Users\jdmumm\AppData\Local\Temp\16\arc6107\2f75f1846d15961b9f87c4f534d6acff.sde\sde_wcgis_master.DBO.DWCMasters\sde_wcgis_master.DBO.DWCHunts","Y:\sde_wcgis_master (dfgjnusql-gi71p).sde\sde_wcgis_master.DBO.DWCMasters\sde_wcgis_master.DBO.DWCHunts"
 322," sde","sde","C:\Users\jdmumm\AppData\Local\Temp\16\arc6107\30c5c04cf15fcc3ee856a0ab5224bc66.sde\sde_wcgis_master.DBO.DWCMasters\sde_wcgis_master.DBO.DWCHunts","Y:\sde_wcgis_master (dfgjnusql-gi71p).sde\sde_wcgis_master.DBO.DWCMasters\sde_wcgis_master.DBO.DWCHunts"
@@ -383,12 +381,12 @@
 463," sde","sde","C:\Users\sktimp.DFG\AppData\Roaming\ESRI\Desktop10.0\ArcCatalog\Connection to wcgis-server3 (5151).sde\sde_common83.SDEWILD.nhd2008_Hydrography\sde_common83.SDEWILD.NHDWaterbody","Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.Hydrography\sde_common.DBO.NHDWaterbody"
 464," sde","sde","C:\Users\sktimp.DFG\AppData\Roaming\ESRI\Desktop10.0\ArcCatalog\Connection to wcgis-server3 (5151).sde\sde_common83.SDEWILD.placenames_XYAKGNIS83","Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.BaseFeaturesDD\sde_common.DBO.placenames_AKGNIS"
 465," sde","sde","C:\Users\sktimp.DFG\AppData\Roaming\ESRI\Desktop10.0\ArcCatalog\DC2008 - sdewild@wc_dev1.sde\sde_wc_dev1.SDEWILD.DWCMasters\sde_wc_dev1.SDEWILD.DWCHunts","Y:\sde_wcgis_master (dfgjnusql-gi71p).sde\sde_wcgis_master.DBO.DWCMasters\sde_wcgis_master.DBO.DWCHunts"
-467," sde","_review","C:\Users\sktimp.DFG\AppData\Roaming\ESRI\Desktop10.0\ArcCatalog\DC2008 - sdewild@wc_dev1.sde\sde_wc_dev1.SDEWILD.DWCMasters\sde_wc_dev1.SDEWILD.SpecialAreas",NA
+467," sde","fgdb","C:\Users\sktimp.DFG\AppData\Roaming\ESRI\Desktop10.0\ArcCatalog\DC2008 - sdewild@wc_dev1.sde\sde_wc_dev1.SDEWILD.DWCMasters\sde_wc_dev1.SDEWILD.SpecialAreas","\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\DWCMasters\SpecialAreas"
 468," sde","sde","C:\Users\sktimp.DFG\AppData\Roaming\ESRI\Desktop10.0\ArcCatalog\DC2008 - sdewild@wc_dev1.sde\sde_wc_dev1.SDEWILD.DWCMasters\sde_wc_dev1.SDEWILD.UCU_poly","Y:\sde_wcgis_master (dfgjnusql-gi71p).sde\sde_wcgis_master.DBO.DWCMasters\sde_wcgis_master.DBO.UCU_poly"
 469," sde","sde","C:\Users\sktimp.DFG\AppData\Roaming\ESRI\Desktop10.0\ArcCatalog\_prodDC - sdewcuser@common.sde\sde_common.SDEDFG.BaseFeatures\sde_common.SDEDFG.placenames_orth","Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.BaseFeatures\sde_common.DBO.placenames_orth"
 470," sde","sde","C:\Users\sktimp.DFG\AppData\Roaming\ESRI\Desktop10.0\ArcCatalog\_prodDC - sdewcuser@common.sde\sde_common.SDEDFG.Hydrography\sde_common.SDEDFG.NHDFlowline","Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.Hydrography\sde_common.DBO.NHDFlowline"
 471," sde","sde","C:\Users\sktimp.DFG\AppData\Roaming\ESRI\Desktop10.1\ArcCatalog\DC2008 - sdewild@wc_dev1.sde\sde_wc_dev1.SDEWILD.DWCMasters\sde_wc_dev1.SDEWILD.DWCHunts","Y:\sde_wcgis_master (dfgjnusql-gi71p).sde\sde_wcgis_master.DBO.DWCMasters\sde_wcgis_master.DBO.DWCHunts"
-472," sde","_review","C:\Users\sktimp.DFG\AppData\Roaming\ESRI\Desktop10.1\ArcCatalog\DC2008 - sdewild@wc_dev1.sde\sde_wc_dev1.SDEWILD.DWCMasters\sde_wc_dev1.SDEWILD.SpecialAreas",NA
+472," sde","fgdb","C:\Users\sktimp.DFG\AppData\Roaming\ESRI\Desktop10.1\ArcCatalog\DC2008 - sdewild@wc_dev1.sde\sde_wc_dev1.SDEWILD.DWCMasters\sde_wc_dev1.SDEWILD.SpecialAreas","\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\DWCMasters\SpecialAreas"
 473," sde","sde","C:\Users\sktimp.DFG\AppData\Roaming\ESRI\Desktop10.1\ArcCatalog\_prodDC - sdewcuser@common.sde\sde_common.SDEDFG.BaseFeaturesDD\sde_common.SDEDFG.placenames_AKGNIS","Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.BaseFeaturesDD\sde_common.DBO.placenames_AKGNIS"
 474," sde","sde","C:\Users\sktimp.DFG\AppData\Roaming\ESRI\Desktop10.1\ArcCatalog\_prodDC - sdewcuser@wc_mgmt_master.sde\sde_wc_mgmt_master.SDEWILD.DWCMasters\sde_wc_mgmt_master.SDEWILD.DWCHunts","Y:\sde_wcgis_master (dfgjnusql-gi71p).sde\sde_wcgis_master.DBO.DWCMasters\sde_wcgis_master.DBO.DWCHunts"
 475," sde","sde","C:\Users\sktimp.DFG\AppData\Roaming\ESRI\Desktop10.1\ArcCatalog\_prodDC - sdewcuser@wc_mgmt_master.sde\sde_wc_mgmt_master.SDEWILD.DWCMasters\sde_wc_mgmt_master.SDEWILD.SpecialAreas","Y:\sde_wcgis_master (dfgjnusql-gi71p).sde\sde_wcgis_master.DBO.DWCMasters\sde_wcgis_master.DBO.SpecialAreas"
@@ -409,8 +407,8 @@
 546," shape","fgdb","C:\Data\UCU_dissolve.shp","\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\DWCMasters\UCU_poly"
 549," shape","pgdb","C:\Data\arctic_circle.shp","\\dfg.alaska.local\GIS\Anchorage\GISStaff\AK_BASE\ARCTIC_CIRCLE.mdb\arctic_circle"
 550," shape","fgdb","C:\GISShare\Infrastructure\major_roads83.shp","\\dfg.alaska.local\GIS\Anchorage\GISStaff\AK_BASE\INFRASTRUCTURE.gdb\ROADS\major_roads"
-551," shape","_review","C:\Sally\GMU_Subunit_coast.shp",NA
-554," shape","_review","C:\Sally\subunits.shp",NA
+551," shape","fgdb","C:\Sally\GMU_Subunit_coast.shp","\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\GMULayers\Subunits_coast"
+554," shape","fgdb","C:\Sally\subunits.shp","\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\GMULayers\Subunits"
 555," shape","shape ","C:\Users\GMUs\AK_Simple.shp","\\dfg.alaska.local\GIS\Anchorage\GISShare\Coastline\Alb154\simplecoast.shp"
 567," shape","sde","H:\common\Frances\Bison_ahtna\section.shp","Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.TownshipRangeQuads\sde_common.DBO.section_polygon"
 571," shape","sde","H:\common\Frances\Bison_ahtna\township.shp","Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.PLSS_DD\sde_common.DBO.township"
@@ -420,9 +418,9 @@
 582," shape","pgdb","U:\AKBase\arctic_circle.shp","\\dfg.alaska.local\GIS\Anchorage\GISStaff\AK_BASE\ARCTIC_CIRCLE.mdb\arctic_circle"
 583," shape","pgdb","U:\AK_BASE\arctic_circle.shp","\\dfg.alaska.local\GIS\Anchorage\GISStaff\AK_BASE\ARCTIC_CIRCLE.mdb\arctic_circle"
 591," shape","fgdb","U:\WC\military\dudded_impact_area.shp","\\dfg.alaska.local\GIS\Anchorage\GISShare\MILITARY AREAS\MILITARY_AREAS.gdb\dudded_impact_area"
-593," shape","_review","V:\Boundaries\GMUs\gmusubs.shp",NA
+593," shape","fgdb","V:\Boundaries\GMUs\gmusubs.shp","\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\GMULayers\Subunits"
 594," shape","sde","\\Wcgis-server3\gisshare\Infrastructure\Roads\gps_akhwysy.shp","Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.BaseFeatures\sde_common.DBO.simplgps_akhwys"
-596," shape","_review","\\dfg.alaska.local\gis\Anchorage\GISShare\Boundaries\GMUs\gmusubs.shp",NA
+596," shape","fgdb","\\dfg.alaska.local\gis\Anchorage\GISShare\Boundaries\GMUs\gmusubs.shp","\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\GMULayers\Subunits"
 599," shape","pgdb","\\dfg.alaska.local\gis\Anchorage\GISStaff\AKBase\arctic_circle.shp","\\dfg.alaska.local\GIS\Anchorage\GISStaff\AK_BASE\ARCTIC_CIRCLE.mdb\arctic_circle"
 600," shape","fgdb","\\dfg.alaska.local\gis\Anchorage\GISStaff\AKBase\covers\majriv.shp","\\dfg.alaska.local\GIS\Anchorage\GISStaff\AK_BASE\WATER.gdb\major_river"
 602," shape","pgdb","\\dfg.alaska.local\gis\Anchorage\GISStaff\AK_BASE\arctic_circle.shp","\\dfg.alaska.local\GIS\Anchorage\GISStaff\AK_BASE\ARCTIC_CIRCLE.mdb\arctic_circle"
