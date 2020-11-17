@@ -1,0 +1,57 @@
+<ESRI.Configuration xmlns="http://schemas.esri.com/Desktop/AddIns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>ChkandFixLinks</Name>
+    <AddInID>{a1bacacf-7eb4-45f2-9a3c-312b56fb0f28}</AddInID>
+    <Description>Inventory FCs, find and repair broken links</Description>
+    <Version>0.9.21</Version>
+    <Image>Images\BigGood.png</Image>
+    <Author>R Strauch</Author>
+    <Company>Alaska Dept of Fish and Game</Company>
+    <Date>09/21/2015</Date>
+    <Targets>
+        <Target name="Desktop" version="10.1" />
+    </Targets>
+    <AddIn language="PYTHON" library="ChkandFixLinks_addin.py" namespace="ChkandFixLinks_addin">
+        <ArcCatalog>
+            <Commands>
+                <Button caption="List FGDBs in a folder( and subfolders)" category="Repair Broken Resource utilities" class="btnGDBInventory" id="GDBInventory_addin.button" image="Images\databases.png" message="List file GDBs within Folder(s)" tip="Select folder to walk thru">
+                    <Help heading="FGDBs">Select folder to search</Help>
+                </Button>
+                <Button caption="Inventory Feature Classes (all types)" category="Repair Broken Resource utilities" class="btnFCInventory" id="FCInventory_addin.button" image="Images\application_cascade.png" message="List all feature classes in folder" tip="List all type of fetures claseses in selected folder(and subs)">
+                    <Help heading="Feature Class Inventory">Select folder to inventory. Include coverages and tables</Help>
+                </Button>
+                <Button caption="List Broken Source Links" category="Repair Broken Resource utilities" class="btnListBrokenSources" id="ListBrokenSources_addin.button" image="Images\link_break.png" message="Select folder to check" tip="Creates reports of broken links in MXDs">
+                    <Help heading="List broken source links">Walks thru folder, checks mxds, outputs list of broken sources</Help>
+                </Button>
+                <Button caption="Currently not used Drive letter update and Show broken sources" category="Repair Broken Resource utilities" class="btnFixDriveLetters" id="FixDriveLetters_addin.button" image="Images\link_edit.png" message="Can repair server/drive changes, must input properly formatted .csv input file" tip="Repair at Server/Drive level, rerun broken source reports">
+                    <Help heading="Fix at server or drive letter level">Must have input file for any changes to work</Help>
+                </Button>
+                <Button caption="Repair other broken source links" category="Repair Broken Resource utilities" class="btnDataSourceRepair" id="DataSourceRepair_addin.button" image="Images\link_go.png" message="Choose folder and input file " tip="Use update file to repair broken links">
+                    <Help heading="Repair paths">Repair paths based on input file.</Help>
+                </Button>
+                <Button caption="More Instructions" category="Repair Broken Resource utilities" class="YieldForInstructions" id="YieldForInstructions_addin.button" image="Images\Traffic-Yield-32.png" message="Review instructions and create .csv" tip="Stop and review output from Broken Link list. Update for new links. Think before proceeding.">
+                    <Help heading="Read before next step">First steps only had reporting output.  Next steps can change mxds, so understand the process before proceeding.</Help>
+                </Button>
+                <Button caption="Spare Button1 for future tools" category="Repair Broken Resource utilities" class="SpareButton1" id="SpareButton1_addin.button" image="Images\bandaid.png" message="TBD" tip="TBD">
+                    <Help heading="TBD">TBD</Help>
+                </Button>
+            </Commands>
+            <Extensions>
+            </Extensions>
+            <Toolbars>
+                <Toolbar caption="Find and Repair Broken Links" category="Repair Broken Resource utilities" id="ChkandFixLinks_addin.toolbar" showInitially="true">
+                    <Items>
+                        <Button refID="GDBInventory_addin.button" />
+                        <Button refID="FCInventory_addin.button" />
+                        <Button refID="ListBrokenSources_addin.button" />
+                        <Button refID="YieldForInstructions_addin.button" />
+                        <!-- <Button refID="FixDriveLetters_addin.button" /> -->
+                        <Button refID="DataSourceRepair_addin.button" />
+                        <!-- <Button refID="SpareButton1_addin.button" /> -->
+                    </Items>
+                </Toolbar>
+            </Toolbars>
+            <Menus>
+            </Menus>
+        </ArcCatalog>
+    </AddIn>
+</ESRI.Configuration>

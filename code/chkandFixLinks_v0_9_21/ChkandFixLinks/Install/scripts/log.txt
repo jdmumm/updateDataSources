@@ -1,0 +1,156 @@
+>>> import arcpy
+import os
+import csv
+from _miscUtils import *     # handles the myMsgs and time functions
+from _gpdecorators import *  # handles main for catching errors
+
+#----------------------------------------------------------------------
+
+#----------------------------------------------------------------------
+def findUpdatePath(inFile, searchOldPath):
+  #rtnNewPath = searchOldPath # for those that can't be found
+  with open(inFile) as inFix:
+    reader = csv.reader(inFix)
+    for row in reader:
+      if row[3] in searchOldPath:
+        myMsgs('     > Match found: {}'.format(row))
+        rtnNewPath = row[4]
+        rtnNewType = row[2]
+        rtnSameTypeTF = (row[1] == row[2])
+        rtnOldType = row[1]
+        rtnOldPath = row[3]
+        #print("returnNewPath: {0}".format(returnNewPath))	
+        #print("returnNewType: {0}".format(returnNewType))	
+        break
+      else:
+        #print("no match")
+        rtnNewPath = "no match"
+        rtnNewType = False
+        rtnSameTypeTF = False
+        rtnOldType = row[1]
+        rtnOldPath = row[3]
+  return(rtnNewPath, rtnNewType, rtnSameTypeTF, rtnOldType, rtnOldPath)
+
+inFile = "updateMultipleSourcePaths.csv"
+theWorkspace = r"d:\_dataTest"
+arcpy.env.workspace = theWorkspace
+inFile = os.path.join(theWorkspace, inFile)
+cvrList = [r"\arc", r"\polygon", r"\region", r"\point", r"\tic" ]
+lstExtDatatype = [[".shp", "SHAPEFILE_WORKSPACE" ], [".sde","SDE_Workspace"], [".mdb", "ACCESS_WORKSPACE" ], [".gdb", "FILEGDB_WORKSPACE"]]	
+mxd = arcpy.mapping.MapDocument("CURRENT")
+lyrList = arcpy.mapping.ListLayers(mxd)
+theTables = arcpy.mapping.ListTableViews(mxd)
+>>> lyr = lyrList[0]
+>>> lyr.dataSource
+u'U:\\SHAPES\\road.shp'
+>>> lyr.replaceDataSource(r'\\dfg.alaska.local\gis\Anchorage\GISStaff\AK_BASE\INFRASTRUCTURE.gdb\ROADS', 'FILEGDB_WORKSPACE', 'Road', False)
+>>> lyr.dataSource
+u'\\\\dfg.alaska.local\\gis\\Anchorage\\GISStaff\\AK_BASE\\INFRASTRUCTURE.gdb\\ROADS\\road.shp'
+>>> lyr = lyrList[1]
+>>> lyr.dataSource
+u'U:\\SHAPES\\road.shp'
+>>> lyr.replaceDataSource('\\\\dfg.alaska.local\\gis\\Anchorage\\GISStaff\\AK_BASE\\INFRASTRUCTURE.gdb\\ROADS', 'FILEGDB_WORKSPACE', 'Road')
+Runtime error 
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "c:\program files (x86)\arcgis\desktop10.3\arcpy\arcpy\utils.py", line 182, in fn_
+    return fn(*args, **kw)
+  File "c:\program files (x86)\arcgis\desktop10.3\arcpy\arcpy\_mapping.py", line 681, in replaceDataSource
+    return convertArcObjectToPythonObject(self._arc_object.replaceDataSource(*gp_fixargs((workspace_path, workspace_type, dataset_name, validate), True)))
+ValueError: Layer: Unexpected error
+>>> lyr.replaceDataSource("\\\\dfg.alaska.local\\gis\\Anchorage\\GISStaff\\AK_BASE\\INFRASTRUCTURE.gdb\\ROADS", "FILEGDB_WORKSPACE", "Road", False)
+>>> lyr.dataSource
+u'\\\\dfg.alaska.local\\gis\\Anchorage\\GISStaff\\AK_BASE\\INFRASTRUCTURE.gdb\\ROADS\\road.shp'
+>>> lyr = lyrList[2]
+>>> lyr.dataSource
+u'U:\\SHAPES\\road.shp'
+>>> lyr.replaceDataSource("\\\\dfg.alaska.local\\gis\\Anchorage\\GISStaff\\AK_BASE\\INFRASTRUCTURE.gdb\\ROADS", "FILEGDB_WORKSPACE")
+Runtime error 
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "c:\program files (x86)\arcgis\desktop10.3\arcpy\arcpy\utils.py", line 182, in fn_
+    return fn(*args, **kw)
+  File "c:\program files (x86)\arcgis\desktop10.3\arcpy\arcpy\_mapping.py", line 681, in replaceDataSource
+    return convertArcObjectToPythonObject(self._arc_object.replaceDataSource(*gp_fixargs((workspace_path, workspace_type, dataset_name, validate), True)))
+ValueError: Layer: Unexpected error
+>>> lyr.dataSource
+u'U:\\SHAPES\\road.shp'
+>>> lyr.replaceDataSource("\\\\dfg.alaska.local\\gis\\Anchorage\\GISStaff\\AK_BASE\\INFRASTRUCTURE.gdb\\ROADS", "FILEGDB_WORKSPACE", "road2", False)
+>>> lyr.dataSource
+u'\\\\dfg.alaska.local\\gis\\Anchorage\\GISStaff\\AK_BASE\\INFRASTRUCTURE.gdb\\ROADS\\road2.shp'
+>>> lyr = lyrList[3]
+>>> lyr.dataSource
+u'U:\\SHAPES\\road.shp'
+>>> updatePath = findUpdatePath(inFile, lyr.dataSource)
+     > Match found: ['273', 'Shape', 'Fgdb', 'U:\\SHAPES\\road.shp', '\\\\dfg.alaska.local\\gis\\Anchorage\\GISStaff\\AK_BASE\\INFRASTRUCTURE.gdb\\ROADS\\Road']
+>>> updatePath
+('\\\\dfg.alaska.local\\gis\\Anchorage\\GISStaff\\AK_BASE\\INFRASTRUCTURE.gdb\\ROADS\\Road', 'Fgdb', False, 'Shape', 'U:\\SHAPES\\road.shp')
+>>> lyr.findAndReplaceWorkspacePath('U:\\SHAPES\\road.shp', '\\\\dfg.alaska.local\\gis\\Anchorage\\GISStaff\\AK_BASE\\INFRASTRUCTURE.gdb\\ROADS\\Road', False)
+>>> lyr.dataSource
+u'U:\\SHAPES\\road.shp'
+>>> lyr.dataSource
+u'U:\\SHAPES\\road.shp'
+>>> lyr.replaceDataSource("\\\\dfg.alaska.local\\gis\\Anchorage\\GISStaff\\AK_BASE\\INFRASTRUCTURE.gdb", "FILEGDB_WORKSPACE", "road2", False)
+>>> lyr.dataSource
+u'\\\\dfg.alaska.local\\gis\\Anchorage\\GISStaff\\AK_BASE\\INFRASTRUCTURE.gdb\\road.shp'
+>>> lyr = lyrList[4]
+>>> lyr.dataSource
+u'U:\\SHAPES\\road.shp'
+>>> lyr.replaceDataSource(r"\\dfg.alaska.local\gis\Anchorage\GISStaff\AK_BASE\INFRASTRUCTURE.gdb", "FILEGDB_WORKSPACE", "Road", False)
+>>> lyr.dataSource
+u'\\\\dfg.alaska.local\\gis\\Anchorage\\GISStaff\\AK_BASE\\INFRASTRUCTURE.gdb\\ROADS\\Road'
+>>> lyr.isBroken
+False
+>>> lyr = lyrList[5]
+>>> lyr.isBroken
+True
+>>> lyr.isBroken
+True
+>>> lyr.dataSource
+u'U:\\SHAPES\\road.shp'
+>>> updatePath = findUpdatePath(inFile, lyr.dataSource)
+     > Match found: ['273', 'Shape', 'Fgdb', 'U:\\SHAPES\\road.shp', '\\\\dfg.alaska.local\\gis\\Anchorage\\GISStaff\\AK_BASE\\INFRASTRUCTURE.gdb\\ROADS\\Road']
+>>> newDSPath, newDSName = os.path.split(updatePath[0])
+>>> newDSPath
+'\\\\dfg.alaska.local\\gis\\Anchorage\\GISStaff\\AK_BASE\\INFRASTRUCTURE.gdb\\ROADS'
+>>> for extType in lstExtDatatype:
+...   if extType[0] in updatePath[0]:
+...     print(extType)
+...     newType = extType[1]
+...     
+['.gdb', 'FILEGDB_WORKSPACE']
+>>> newDSPath
+'\\\\dfg.alaska.local\\gis\\Anchorage\\GISStaff\\AK_BASE\\INFRASTRUCTURE.gdb\\ROADS'
+>>> newType
+'FILEGDB_WORKSPACE'
+>>> newDSName
+'Road'
+>>> lyr.replaceDataSource("\\\\dfg.alaska.local\\gis\\Anchorage\\GISStaff\\AK_BASE\\INFRASTRUCTURE.gdb", "FILEGDB_WORKSPACE", "Road", False)
+>>> lyr.dataSource
+u'\\\\dfg.alaska.local\\gis\\Anchorage\\GISStaff\\AK_BASE\\INFRASTRUCTURE.gdb\\ROADS\\Road'
+>>> newDSPath
+'\\\\dfg.alaska.local\\gis\\Anchorage\\GISStaff\\AK_BASE\\INFRASTRUCTURE.gdb\\ROADS'
+>>> zz = newDSPath.find(".gdb")
+>>> zz
+64
+>>> yy = newDSPath.find(".gdb\\")
+>>> yy
+64
+>>> xx = newDSPath.endswith(".gdb")
+>>> xx
+False
+>>> aa = newDSPath.rstrip(64)
+Runtime error 
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+TypeError: rstrip arg must be None, str or unicode
+>>> aa = newDSPath.split('.gdb', 1)[0] + '.gdb'
+>>> aa
+'\\\\dfg.alaska.local\\gis\\Anchorage\\GISStaff\\AK_BASE\\INFRASTRUCTURE.gdb'
+>>> bb = aa.split('.gdb', 1)[0] + '.gdb'
+>>> bb
+'\\\\dfg.alaska.local\\gis\\Anchorage\\GISStaff\\AK_BASE\\INFRASTRUCTURE.gdb'
+>>> cc = newDSPath.split('.gdb\\')[0] + '.gdb'
+>>> cc
+'\\\\dfg.alaska.local\\gis\\Anchorage\\GISStaff\\AK_BASE\\INFRASTRUCTURE.gdb'
+>>> 

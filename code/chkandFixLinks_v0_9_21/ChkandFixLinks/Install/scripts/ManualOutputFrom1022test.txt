@@ -1,0 +1,109 @@
+>>> import arcpy
+import os
+import csv
+from _miscUtils import *     # handles the myMsgs and time functions
+from _gpdecorators import *  # handles main for catching errors
+
+#----------------------------------------------------------------------
+
+#----------------------------------------------------------------------
+def findUpdatePath(inFile, searchOldPath):
+  #rtnNewPath = searchOldPath # for those that can't be found
+  with open(inFile) as inFix:
+    reader = csv.reader(inFix)
+    for row in reader:
+      if row[3] in searchOldPath:
+        myMsgs('     > Match found: {}'.format(row))
+        rtnNewPath = row[4]
+        rtnNewType = row[2]
+        rtnSameTypeTF = (row[1] == row[2])
+        rtnOldType = row[1]
+        rtnOldPath = row[3]
+        #print("returnNewPath: {0}".format(returnNewPath))	
+        #print("returnNewType: {0}".format(returnNewType))	
+        break
+      else:
+        #print("no match")
+        rtnNewPath = "no match"
+        rtnNewType = False
+        rtnSameTypeTF = False
+        rtnOldType = row[1]
+        rtnOldPath = row[3]
+  return(rtnNewPath, rtnNewType, rtnSameTypeTF, rtnOldType, rtnOldPath)
+
+inFile = "updateMultipleSourcePaths.csv"
+theWorkspace = r"d:\_dataTest"
+arcpy.env.workspace = theWorkspace
+inFile = os.path.join(theWorkspace, inFile)
+cvrList = [r"\arc", r"\polygon", r"\region", r"\point", r"\tic" ]
+lstExtDatatype = [[".shp", "SHAPEFILE_WORKSPACE" ], [".sde","SDE_Workspace"], [".mdb", "ACCESS_WORKSPACE" ], [".gdb", "FILEGDB_WORKSPACE"]]	
+mxd = arcpy.mapping.MapDocument("CURRENT")
+lyrList = arcpy.mapping.ListLayers(mxd)
+theTables = arcpy.mapping.ListTableViews(mxd)
+
+for lyr in lyrList:
+  print(lyr.isBroken, lyr.dataSource)
+#-------------
+(True, u'U:\\AKBase\\arctic_circle.shp')
+(False, u'C:\\Users\\sktimp.DFG\\AppData\\Roaming\\ESRI\\Desktop10.0\\ArcCatalog\\_prodDC - sdewcuser@common.sde\\sde_common.SDEDFG.BaseFeatures\\sde_common.SDEDFG.placenames_orth')
+(True, u'V:\\Infrastructure\\ADOT_02152007_routes_mileposts.mdb\\Mileposts')
+(True, u'u:\\shapes\\rescommalb\\point')
+(True, u'V:\\Infrastructure\\ADOT_centerline_mileposts.gdb\\dot_centerline_route')
+(True, u'C:\\Users\\sktimp.DFG\\AppData\\Roaming\\ESRI\\Desktop10.0\\ArcCatalog\\DC2008 - sdewild@wc_dev1.sde\\sde_wc_dev1.SDEWILD.DWCMasters\\sde_wc_dev1.SDEWILD.DWCHunts')
+(True, u'C:\\Users\\sktimp.DFG\\AppData\\Roaming\\ESRI\\Desktop10.0\\ArcCatalog\\DC2008 - sdewild@wc_dev1.sde\\sde_wc_dev1.SDEWILD.DWCMasters\\sde_wc_dev1.SDEWILD.DWCHunts')
+(True, u'U:\\SHAPES\\road.shp')
+(True, u'V:\\Boundaries\\GMUs\\gmusubs.shp')
+(True, u'v:\\coastline\\alb154\\canada\\polygon')
+(True, u'U:\\WC\\military\\dudded_impact_area.shp')
+(True, u'C:\\Data\\RAILROADS\\Railroads_RB.shp')
+Runtime error 
+Traceback (most recent call last):
+  File "<string>", line 45, in <module>
+  File "c:\program files (x86)\arcgis\desktop10.2\arcpy\arcpy\arcobjects\_base.py", line 78, in _get
+    (attr_name, self.__class__.__name__))
+NameError: The attribute 'dataSource' is not supported on this instance of Layer.
+>>> lyr = lyrList[7]
+>>> lyr.dataSource
+u'U:\\SHAPES\\road.shp'
+>>> lyr.isBroken
+True
+>>> updatePath = findUpdatePath(inFile, lyr.dataSource)
+     > Match found: ['273', 'Shape', 'Fgdb', 'U:\\SHAPES\\road.shp', '\\\\dfg.alaska.local\\gis\\Anchorage\\GISStaff\\AK_BASE\\INFRASTRUCTURE.gdb\\ROADS\\Road']
+>>> newDSPath, newDSName = os.path.split(updatePath[0])
+>>> lyr.isGroupLayer or ("Events" in lyr.name)
+False
+>>> lyr.isServiceLayer
+False
+>>> lyr.supports("DATASOURCE") and lyr.supports("DATASETNAME")
+True
+>>> sameType = updatePath[2] 
+>>> sameType
+False
+>>> not updatePath[1]
+False
+>>> updatePath[1] == "drive"
+False
+>>> lyr in theTables
+False
+>>> lyr.isRasterLayer
+False
+>>> updatePath[0]
+'\\\\dfg.alaska.local\\gis\\Anchorage\\GISStaff\\AK_BASE\\INFRASTRUCTURE.gdb\\ROADS\\Road'
+>>> for extType in lstExtDatatype:
+...   if extType[0] in updatePath[0]:
+...     print(extType)
+...     newType = extType[1]
+...     
+['.gdb', 'FILEGDB_WORKSPACE']
+>>> newType
+'FILEGDB_WORKSPACE'
+>>> newDSPath
+'\\\\dfg.alaska.local\\gis\\Anchorage\\GISStaff\\AK_BASE\\INFRASTRUCTURE.gdb\\ROADS'
+>>> newType
+'FILEGDB_WORKSPACE'
+>>> newDSName
+'Road'
+>>> lyr.replaceDataSource(newDSPath, newType, newDSName, False)
+>>> lyr.dataSource
+u'\\\\dfg.alaska.local\\gis\\Anchorage\\GISStaff\\AK_BASE\\INFRASTRUCTURE.gdb\\ROADS\\road.shp'
+>>> 
