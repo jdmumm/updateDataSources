@@ -203,16 +203,16 @@ code,Nick,Path,db,Path_short,Type ,comments
 202,,\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\SpecialAreaLayers\ClosedToTrapping,current,ClosedToTrapping,fgdb,
 203,Ocean_py,\\dfg.alaska.local\GIS\Anchorage\GISStaff\AK_BASE\WATER.gdb\Ocean_py,AK_BASE,Ocean_py,fgdb,
 204,rivers_maj,\\dfg.alaska.local\GIS\Anchorage\GISStaff\AK_BASE\WATER.gdb\major_river,AK_BASE,major_river,fgdb,
-205,,\\dfg.alaska.local\GIS\Anchorage\GISStaff\AK_BASE\ARCTIC_CIRCLE.mdb\arctic_circle,AK_BASE,arctic_circle,pgdb,errors when converting to this source
+205,,\\dfg.alaska.local\GIS\Anchorage\GISStaff\AK_BASE\ARCTIC_CIRCLE.mdb\arctic_circle,AK_BASE,arctic_circle,pgdb,
 206,impactAreas,\\dfg.alaska.local\GIS\Anchorage\GISShare\MILITARY AREAS\MILITARY_AREAS.gdb\dudded_impact_area,MILITARY_AREAS,dudded_impact_area,fgdb,
 207,Ak coast simp,\\dfg.alaska.local\GIS\Anchorage\GISShare\Coastline\Alb154\simplecoast.shp,V,simplecoast.shp,shape ,
 208,AK parks,\\dfg.alaska.local\GIS\Anchorage\GISShare\boundaries\NPS\2017_akparks\akparks.gdb,V,akparks.gdb,fgdb,
 209,AK_refuges,\\dfg.alaska.local\gis\Anchorage\GISShare\boundaries\USFWS_Refuges\AK_Refuges_poly.shp,V,AK_Refuges_poly.shp,shape ,
-210,LDAs_dis,\\dfg.alaska.local\GIS\Anchorage\GISStaff\wc\MUMM\Data_toStow\LDA_dis.shp,V,LDA_dis.shp,shape ,
+210,LDAs_dis,\\dfg.alaska.local\GIS\Anchorage\GISStaff\wc\MUMM\Stow\LDA_dis.shp,Stow ,LDA_dis.shp,shape ,
 211,rivers_min,\\dfg.alaska.local\GIS\Anchorage\GISStaff\AK_BASE\WATER.gdb\minor_river,AK_BASE,minor_river,fgdb,
 212,roads_maj,\\dfg.alaska.local\GIS\Anchorage\GISStaff\AK_BASE\INFRASTRUCTURE.gdb\ROADS\major_roads,AK_BASE,major_roads,fgdb,
 213,roads_min,\\dfg.alaska.local\GIS\Anchorage\GISStaff\AK_BASE\INFRASTRUCTURE.gdb\ROADS\minor_roads,AK_BASE,minor_roads,fgdb,
-214,arctic_circle,\\dfg.alaska.local\GIS\Anchorage\GISStaff\wc\MUMM\Data_toStow\arctic_circle.shp,AK_BASE,arctic_circle.shp,shp,AK_BASE version casues errors 
+214,arctic_circle,\\dfg.alaska.local\GIS\Anchorage\GISStaff\wc\MUMM\Stow\arctic_circle.shp,Stow,arctic_circle.shp,fgdb,AK_BASE version casues errors 
 ,,,,,,
 ,,,,,,
 ,,,,,,

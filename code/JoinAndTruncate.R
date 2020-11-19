@@ -12,7 +12,7 @@ brk %>% drop_na (code) %>% left_join (inv) %>%
 # Arc creates these temp dummy sdes if the version of the database is deleted after the mxd was saved. 
 joined %>%
   mutate (brokenPath = gsub('^C:\\\\Users\\\\jdmumm\\\\AppData\\\\Local\\\\Temp\\\\16\\\\arc6107\\\\.{37}', '', joined$brokenPath)) %>% 
-  distinct (brokenPath, .keep_all = TRUE) %>%
+  distinct (brokenPath, .keep_all = TRUE) %>% # remove duplicate generalized records
   arrange (brokenPath) -> out
 
 # write ----
