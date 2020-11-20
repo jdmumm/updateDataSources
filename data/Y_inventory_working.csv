@@ -206,7 +206,7 @@ code,Nick,Path,db,Path_short,Type ,comments
 205,,\\dfg.alaska.local\GIS\Anchorage\GISStaff\AK_BASE\ARCTIC_CIRCLE.mdb\arctic_circle,AK_BASE,arctic_circle,pgdb,
 206,impactAreas,\\dfg.alaska.local\GIS\Anchorage\GISShare\MILITARY AREAS\MILITARY_AREAS.gdb\dudded_impact_area,MILITARY_AREAS,dudded_impact_area,fgdb,
 207,Ak coast simp,\\dfg.alaska.local\GIS\Anchorage\GISShare\Coastline\Alb154\simplecoast.shp,V,simplecoast.shp,shape ,
-208,AK parks,\\dfg.alaska.local\GIS\Anchorage\GISShare\boundaries\NPS\2017_akparks\akparks.gdb,V,akparks.gdb,fgdb,
+208,AK parks,\\dfg.alaska.local\gis\Anchorage\GISShare\boundaries\NPS\2017_akparks\akparks.gdb\NPS_boundary,V,NPS_boundary,fgdb,
 209,AK_refuges,\\dfg.alaska.local\gis\Anchorage\GISShare\boundaries\USFWS_Refuges\AK_Refuges_poly.shp,V,AK_Refuges_poly.shp,shape ,
 210,LDAs_dis,\\dfg.alaska.local\GIS\Anchorage\GISStaff\wc\MUMM\Stow\LDA_dis.shp,Stow ,LDA_dis.shp,shape ,
 211,rivers_min,\\dfg.alaska.local\GIS\Anchorage\GISStaff\AK_BASE\WATER.gdb\minor_river,AK_BASE,minor_river,fgdb,
