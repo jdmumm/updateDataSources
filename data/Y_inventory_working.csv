@@ -201,20 +201,23 @@ code,Nick,Path,db,Path_short,Type ,comments
 200,CUA,\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\SpecialAreaLayers\ControlledUse,current,ControlledUse,fgdb,
 201,MA,\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\SpecialAreaLayers\Management,current,Management,fgdb,
 202,,\\dfg.alaska.local\GIS\Anchorage\GISShare\DWC_Hunts_SpecArea_GMU\Current.gdb\SpecialAreaLayers\ClosedToTrapping,current,ClosedToTrapping,fgdb,
-203,Ocean_py,\\dfg.alaska.local\GIS\Anchorage\GISStaff\AK_BASE\WATER.gdb\Ocean_py,AK_BASE,Ocean_py,fgdb,
-204,rivers_maj,\\dfg.alaska.local\GIS\Anchorage\GISStaff\AK_BASE\WATER.gdb\major_river,AK_BASE,major_river,fgdb,
-205,,\\dfg.alaska.local\GIS\Anchorage\GISStaff\AK_BASE\ARCTIC_CIRCLE.mdb\arctic_circle,AK_BASE,arctic_circle,pgdb,
-206,impactAreas,\\dfg.alaska.local\GIS\Anchorage\GISShare\MILITARY AREAS\MILITARY_AREAS.gdb\dudded_impact_area,MILITARY_AREAS,dudded_impact_area,fgdb,
-207,Ak coast simp,\\dfg.alaska.local\GIS\Anchorage\GISShare\Coastline\Alb154\simplecoast.shp,V,simplecoast.shp,shape ,
-208,AK parks,\\dfg.alaska.local\gis\Anchorage\GISShare\boundaries\NPS\2017_akparks\akparks.gdb\NPS_boundary,V,NPS_boundary,fgdb,
-209,AK_refuges,\\dfg.alaska.local\gis\Anchorage\GISShare\boundaries\USFWS_Refuges\AK_Refuges_poly.shp,V,AK_Refuges_poly.shp,shape ,
-210,LDAs_dis,\\dfg.alaska.local\GIS\Anchorage\GISStaff\wc\MUMM\Stow\LDA_dis.shp,Stow ,LDA_dis.shp,shape ,
-211,rivers_min,\\dfg.alaska.local\GIS\Anchorage\GISStaff\AK_BASE\WATER.gdb\minor_river,AK_BASE,minor_river,fgdb,
-212,roads_maj,\\dfg.alaska.local\GIS\Anchorage\GISStaff\AK_BASE\INFRASTRUCTURE.gdb\ROADS\major_roads,AK_BASE,major_roads,fgdb,
-213,roads_min,\\dfg.alaska.local\GIS\Anchorage\GISStaff\AK_BASE\INFRASTRUCTURE.gdb\ROADS\minor_roads,AK_BASE,minor_roads,fgdb,
-214,arctic_circle,\\dfg.alaska.local\GIS\Anchorage\GISStaff\wc\MUMM\Stow\arctic_circle.shp,Stow,arctic_circle.shp,fgdb,AK_BASE version casues errors 
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
+203,Ocean_py,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.Coastlines_Albers\sde_common.DBO.Ocean_py,common,sde_common.DBO.Ocean_py,sde,imported  to common 2/5/21
+204,rivers_maj,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.Hydrography_Albers\sde_common.DBO.major_river,common,sde_common.DBO.major_river,sde,imported  to common 2/5/21
+205,arctic_circle,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.BaseFeatures\sde_common.DBO.arctic_circle,common,sde_common.DBO.arctic_circle,sde,imported  to common 2/5/21
+206,impactAreas,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.BaseFeatures\sde_common.DBO.dudded_impact_area,common,sde_common.DBO.dudded_impact_area,sde,imported  to common 2/5/21
+207,Ak coast simp,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.Coastlines\sde_common.DBO.simplecoast,common,sde_common.DBO.simplecoast,sde,
+208,AK parks,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.Boundaries\sde_common.DBO.State_Park_Boundary,common,sde_common.DBO.State_Park_Boundary,sde,
+209,AK_refuges,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.Boundaries\sde_common.DBO.FWSApproved,common,sde_common.DBO.FWSApproved,sde,imported  to common 2/5/21
+211,rivers_min,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.Hydrography_Albers\sde_common.DBO.minor_river,common,sde_common.DBO.minor_river,sde,
+212,roads_maj,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.BaseFeatures\sde_common.DBO.major_roads,common,sde_common.DBO.major_roads,sde,imported  to common 2/5/21
+213,roads_min,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.BaseFeatures\sde_common.DBO.minor_roads,common,sde_common.DBO.minor_roads,sde,imported  to common 2/5/21
+215,Chugach_NF_Trails,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.BaseFeatures\sde_common.DBO.Chugach_NF_Trails,common,sde_common.DBO.Chugach_NF_Trails,sde,imported  to common 2/5/21
+216,Chugach_SP_Trails,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.BaseFeatures\sde_common.DBO.Chugach_SP_Trails,common,sde_common.DBO.Chugach_SP_Trails,sde,imported  to common 2/5/21
+217,crowpasstrail,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.BaseFeatures\sde_common.DBO.crowpasstrail,common,sde_common.DBO.crowpasstrail,sde,imported  to common 2/5/21
+221,railroads,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.BaseFeatures\sde_common.DBO.railroad,common,sde_common.DBO.railroad,sde,imported  to common 2/5/21
+222,rex,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.BaseFeatures\sde_common.DBO.rextrail,common,sde_common.DBO.rextrail,sde,imported  to common 2/5/21
+223,RS2477_Trails,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.BaseFeatures\sde_common.DBO.RS2477_Trails,common,sde_common.DBO.RS2477_Trails,sde,imported  to common 2/5/21
+225,LDA,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.Boundaries\sde_common.DBO.Legislatively_Designated_Area_Py,common,sde_common.DBO.Legislatively_Designated_Area_Py,sde,imported  to common 2/5/21
+226,NPS_Boundary,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.Boundaries\sde_common.DBO.NPS_Boundary,common,sde_common.DBO.NPS_Boundary,sde,imported  to common 2/5/21
+228,AK_Coast_250K,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.Coastlines\sde_common.DBO.AK_coast_250K,common,sde_common.DBO.AK_coast_250K,sde,imported  to common 2/5/21
+231,logo,Y:\sde_common (dfgjnusql-gi71p).sde\sde_common.DBO.ADFG_logo_2001_transparent,common,sde_common.DBO.ADFG_logo_2001_transparent,sde,imported  to common 2/5/21
